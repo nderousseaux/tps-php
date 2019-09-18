@@ -2,10 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="0c21f14b-21ae-4266-9393-c79a0bdfada5" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/TP/TP1/Ex2/formulaire.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/TP/TP1/Ex2/liste.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/TP/TP1/Ex2/listeGet.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/TP/TP1/Ex2/listePost.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/TP/TP1/Ex3/counter.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/TP/TP1/Ex3/reponses.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/TP/TP1/Ex3/resetCounter.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -31,55 +30,43 @@
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/TP/TP1/Ex1/formulaire.html">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="221">
-              <caret line="13" column="7" selection-end-line="13" selection-end-column="7" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/TP/TP1/Ex1/bonjourPost.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="272">
-              <caret line="16" column="8" selection-start-line="16" selection-start-column="8" selection-end-line="16" selection-end-column="8" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/TP/TP1/Ex2/listeGet.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="102">
-              <caret line="6" selection-start-line="6" selection-end-line="6" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/TP/TP1/Ex2/listePost.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="85">
-              <caret line="5" column="22" selection-start-line="5" selection-start-column="22" selection-end-line="5" selection-end-column="22" />
+        <entry file="file://$PROJECT_DIR$/TP/TP1/TP1.md">
+          <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+            <state split_layout="SPLIT">
+              <first_editor relative-caret-position="34">
+                <caret line="47" selection-start-line="47" selection-end-line="69" selection-end-column="80" />
+              </first_editor>
+              <second_editor />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/TP/TP1/Ex2/formulaire.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="34">
-              <caret line="2" column="30" selection-start-line="2" selection-start-column="30" selection-end-line="2" selection-end-column="30" />
+        <entry file="file://$PROJECT_DIR$/TP/TP1/Ex3/reponses.md">
+          <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+            <state split_layout="SPLIT">
+              <first_editor relative-caret-position="102">
+                <caret line="6" column="1" selection-start-line="6" selection-start-column="1" selection-end-line="6" selection-end-column="1" />
+              </first_editor>
+              <second_editor />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/TP/TP1/Ex2/liste.php">
+        <entry file="file://$PROJECT_DIR$/TP/TP1/Ex3/resetCounter.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="153">
-              <caret line="9" column="24" selection-start-line="9" selection-start-column="24" selection-end-line="9" selection-end-column="24" />
+            <state relative-caret-position="17">
+              <caret line="1" column="16" selection-start-line="1" selection-start-column="16" selection-end-line="1" selection-end-column="16" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/TP/TP1/Ex3/counter.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="170">
+              <caret line="10" column="4" selection-start-line="10" selection-start-column="4" selection-end-line="10" selection-end-column="4" />
             </state>
           </provider>
         </entry>
@@ -104,6 +91,10 @@
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
     <option name="PREVIEW_PUSH_PROTECTED_ONLY" value="true" />
   </component>
+  <component name="HighlightingSettingsPerFile">
+    <setting file="file://$PROJECT_DIR$/TP/TP1/Ex3/counter.php" root0="SKIP_INSPECTION" root1="SKIP_INSPECTION" />
+    <setting file="file://$PROJECT_DIR$/TP/TP1/Ex3/reponses.md" root0="SKIP_INSPECTION" />
+  </component>
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
@@ -114,8 +105,13 @@
         <option value="$PROJECT_DIR$/TP/TP1/Ex2/liste.php" />
         <option value="$PROJECT_DIR$/TP/TP1/Ex2/listeSet.php" />
         <option value="$PROJECT_DIR$/TP/TP1/Ex2/listeGet.php" />
-        <option value="$PROJECT_DIR$/TP/TP1/Ex2/listePost.php" />
         <option value="$PROJECT_DIR$/TP/TP1/Ex2/formulaire.php" />
+        <option value="$PROJECT_DIR$/TP/TP1/Ex2/listePost.php" />
+        <option value="$PROJECT_DIR$/TP/TP1/Ex3/resetConter.php" />
+        <option value="$PROJECT_DIR$/TP/TP1/Ex3/resetCounter.php" />
+        <option value="$PROJECT_DIR$/TP/TP1/Ex3/counter.php" />
+        <option value="$PROJECT_DIR$/TP/TP1/Ex3/reponses.txt" />
+        <option value="$PROJECT_DIR$/TP/TP1/Ex3/reponses.md" />
       </list>
     </option>
   </component>
@@ -133,7 +129,6 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -164,12 +159,13 @@
               <item name="W31" type="462c0819:PsiDirectoryNode" />
               <item name="TP" type="462c0819:PsiDirectoryNode" />
               <item name="TP1" type="462c0819:PsiDirectoryNode" />
-              <item name="Ex2" type="462c0819:PsiDirectoryNode" />
+              <item name="Ex3" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
         </subPane>
       </pane>
+      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -182,6 +178,7 @@
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\wamp64\www\W31\TP\TP1\Ex3" />
       <recent name="C:\wamp64\www\W31\TP\TP1\Ex2" />
     </key>
   </component>
@@ -208,7 +205,9 @@
       <option name="presentableId" value="Default" />
       <updated>1568367255184</updated>
       <workItem from="1568367266430" duration="6529000" />
-      <workItem from="1568563122940" duration="1504000" />
+      <workItem from="1568563122940" duration="1984000" />
+      <workItem from="1568565231339" duration="192000" />
+      <workItem from="1568795930099" duration="2029000" />
     </task>
     <task id="LOCAL-00001" summary="Mise à jour de l'arborescence des fichiers">
       <created>1568367798811</created>
@@ -217,21 +216,27 @@
       <option name="project" value="LOCAL" />
       <updated>1568367798811</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="Fin de l'exercice 2">
+      <created>1568564819273</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1568564819288</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="8033000" />
+    <option name="totallyTimeSpent" value="10734000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1296" height="786" extended-state="6" />
-    <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.2540453" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.26213592" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
-      <window_info anchor="bottom" id="Find" order="1" />
+      <window_info anchor="bottom" id="Find" order="1" weight="0.32924962" />
       <window_info anchor="bottom" id="Run" order="2" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
@@ -239,7 +244,7 @@
       <window_info anchor="bottom" id="TODO" order="6" />
       <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
       <window_info anchor="bottom" id="Database Changes" order="8" />
-      <window_info anchor="bottom" id="Version Control" order="9" visible="true" weight="0.32924962" />
+      <window_info active="true" anchor="bottom" id="Version Control" order="9" visible="true" weight="0.32924962" />
       <window_info anchor="bottom" id="Terminal" order="10" weight="0.32924962" />
       <window_info anchor="bottom" id="Event Log" order="11" side_tool="true" />
       <window_info anchor="bottom" id="Messages" order="12" weight="0.32924962" />
@@ -321,23 +326,31 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Mise à jour de l'arborescence des fichiers" />
-    <option name="LAST_COMMIT_MESSAGE" value="Mise à jour de l'arborescence des fichiers" />
+    <MESSAGE value="Fin de l'exercice 2" />
+    <option name="LAST_COMMIT_MESSAGE" value="Fin de l'exercice 2" />
   </component>
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/TP/TP1/bonjour.php" />
     <entry file="file://$PROJECT_DIR$/TP/TP1/formulaire.html" />
     <entry file="file://$PROJECT_DIR$/TP/TP1/bonjourPost.php" />
-    <entry file="file://$PROJECT_DIR$/TP/TP1/Ex1/bonjourPost.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="272">
-          <caret line="16" column="8" selection-start-line="16" selection-start-column="8" selection-end-line="16" selection-end-column="8" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/TP/TP1/Ex2/listeGet.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="102">
           <caret line="6" selection-start-line="6" selection-end-line="6" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/TP/TP1/Ex2/listePost.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="221">
+          <caret line="13" lean-forward="true" selection-start-line="13" selection-end-line="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/TP/TP1/Ex2/formulaire.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="34">
+          <caret line="2" column="30" selection-start-line="2" selection-start-column="30" selection-end-line="2" selection-end-column="30" />
         </state>
       </provider>
     </entry>
@@ -348,13 +361,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/TP/TP1/Ex2/listePost.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="85">
-          <caret line="5" column="22" selection-start-line="5" selection-start-column="22" selection-end-line="5" selection-end-column="22" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/TP/TP1/Ex1/formulaire.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="221">
@@ -362,10 +368,49 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/TP/TP1/Ex2/formulaire.php">
+    <entry file="file://$PROJECT_DIR$/TP/TP1/Ex1/bonjourPost.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="34">
-          <caret line="2" column="30" selection-start-line="2" selection-start-column="30" selection-end-line="2" selection-end-column="30" />
+        <state relative-caret-position="68">
+          <caret line="4" column="76" lean-forward="true" selection-start-line="4" selection-start-column="8" selection-end-line="4" selection-end-column="76" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/TP/TP1/Ex3/resetCounter.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="17">
+          <caret line="1" column="16" selection-start-line="1" selection-start-column="16" selection-end-line="1" selection-end-column="16" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/TP/TP1/Ex3/counter.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="170">
+          <caret line="10" column="4" selection-start-line="10" selection-start-column="4" selection-end-line="10" selection-end-column="4" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/TP/TP1/TP1.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="SPLIT">
+          <first_editor relative-caret-position="34">
+            <caret line="47" selection-start-line="47" selection-end-line="69" selection-end-column="80" />
+          </first_editor>
+          <second_editor />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/TP/TP1/Ex3/reponses.md">
+      <provider editor-type-id="text-editor">
+        <state relative-caret-position="68">
+          <caret line="4" column="55" lean-forward="true" selection-start-line="4" selection-start-column="55" selection-end-line="4" selection-end-column="55" />
+        </state>
+      </provider>
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="SPLIT">
+          <first_editor relative-caret-position="102">
+            <caret line="6" column="1" selection-start-line="6" selection-start-column="1" selection-end-line="6" selection-end-column="1" />
+          </first_editor>
+          <second_editor />
         </state>
       </provider>
     </entry>
