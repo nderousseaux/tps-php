@@ -35,6 +35,7 @@ $passwordTrue = $row["password"];
 */
 
 //Requête préparée
+
 $result = $pdo->prepare("SELECT password FROM users WHERE login = :login");
 $result->bindValue(':login', $login, PDO::PARAM_STR);
 $result->execute();
