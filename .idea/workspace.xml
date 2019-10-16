@@ -1,11 +1,19 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="0c21f14b-21ae-4266-9393-c79a0bdfada5" name="Default Changelist" comment="Fin du TP2">
-      <change afterPath="$PROJECT_DIR$/TP/TP3/adduser.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/TP/TP3/signup.php" afterDir="false" />
+    <list default="true" id="0c21f14b-21ae-4266-9393-c79a0bdfada5" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/TP/TP4/adduser.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/TP/TP4/authenticate.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/TP/TP4/bdd.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/TP/TP4/changepassword.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/TP/TP4/deleteuser.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/TP/TP4/formpassword.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/TP/TP4/signin.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/TP/TP4/signout.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/TP/TP4/signup.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/TP/TP4/welcome.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/TP/TP3/authenticate.php" beforeDir="false" afterPath="$PROJECT_DIR$/TP/TP3/authenticate.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/TP4.md" beforeDir="false" afterPath="$PROJECT_DIR$/TP/TP4/TP4.md" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -53,7 +61,7 @@
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/TP/TP3/TP3.md">
+        <entry file="file://$PROJECT_DIR$/TP/TP4/TP4.md">
           <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
             <state split_layout="SECOND">
               <first_editor />
@@ -62,20 +70,67 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/TP/TP3/signup.php">
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/TP/TP4/deleteuser.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="238">
-              <caret line="14" column="38" selection-start-line="14" selection-start-column="38" selection-end-line="14" selection-end-column="38" />
+            <state relative-caret-position="305">
+              <caret line="26" column="33" selection-start-line="26" selection-start-column="33" selection-end-line="26" selection-end-column="33" />
+              <folding>
+                <element signature="e#134#276#0#PHP" />
+              </folding>
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/TP/TP3/authenticate.php">
+        <entry file="file://$PROJECT_DIR$/TP/TP4/welcome.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="197">
-              <caret line="56" column="1" lean-forward="true" selection-start-line="56" selection-start-column="1" selection-end-line="56" selection-end-column="1" />
+            <state relative-caret-position="356">
+              <caret line="21" column="63" lean-forward="true" selection-start-line="21" selection-start-column="63" selection-end-line="21" selection-end-column="63" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/TP/TP4/signup.php">
+          <provider selected="true" editor-type-id="text-editor" />
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/TP/TP4/adduser.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="138">
+              <caret line="45" column="78" selection-start-line="45" selection-start-column="78" selection-end-line="45" selection-end-column="78" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/TP/TP4/changepassword.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="17">
+              <caret line="31" selection-start-line="31" selection-end-line="51" selection-end-column="1" />
+              <folding>
+                <element signature="e#613#755#0#PHP" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/TP/TP4/formpassword.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="170">
+              <caret line="19" column="68" selection-start-line="19" selection-start-column="68" selection-end-line="19" selection-end-column="68" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/TP/TP4/authenticate.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="136">
+              <caret line="14" selection-start-line="14" selection-end-line="21" selection-end-column="1" />
             </state>
           </provider>
         </entry>
@@ -85,15 +140,6 @@
           <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
             <state>
               <filtering enabled="true" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/TP/TP3/adduser.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="220">
-              <caret line="44" column="57" lean-forward="true" selection-start-line="44" selection-start-column="57" selection-end-line="44" selection-end-column="57" />
             </state>
           </provider>
         </entry>
@@ -127,11 +173,16 @@
     <option name="PREVIEW_PUSH_PROTECTED_ONLY" value="true" />
   </component>
   <component name="HighlightingSettingsPerFile">
+    <setting file="file://$PROJECT_DIR$/TP/TP4/signin.php" root0="SKIP_INSPECTION" root1="SKIP_INSPECTION" />
     <setting file="file://$PROJECT_DIR$/TP/TP2/authenticate.php" root0="SKIP_INSPECTION" root1="SKIP_INSPECTION" />
     <setting file="file://$PROJECT_DIR$/TP/TP1/Ex3/counter.php" root0="SKIP_INSPECTION" root1="SKIP_INSPECTION" />
     <setting file="file://$PROJECT_DIR$/TP/TP1/Ex3/reponses.md" root0="SKIP_INSPECTION" />
     <setting file="file://$PROJECT_DIR$/TP/TP1/Ex4/counter.php" root0="SKIP_INSPECTION" root1="SKIP_INSPECTION" />
     <setting file="file://$PROJECT_DIR$/TP/TP3/authenticate.php" root0="SKIP_INSPECTION" root1="SKIP_INSPECTION" />
+    <setting file="file://$PROJECT_DIR$/TP/TP4/authenticate.php" root0="SKIP_INSPECTION" root1="SKIP_INSPECTION" />
+    <setting file="file://$PROJECT_DIR$/TP/TP4/formpassword.php" root0="SKIP_INSPECTION" root1="SKIP_INSPECTION" />
+    <setting file="file://$PROJECT_DIR$/TP/TP4/changepassword.php" root0="SKIP_INSPECTION" root1="SKIP_INSPECTION" />
+    <setting file="file://$PROJECT_DIR$/TP/TP4/deleteuser.php" root0="SKIP_INSPECTION" root1="SKIP_INSPECTION" />
   </component>
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
@@ -164,6 +215,14 @@
         <option value="$PROJECT_DIR$/TP/TP3/authenticate.php" />
         <option value="$PROJECT_DIR$/TP/TP3/signup.php" />
         <option value="$PROJECT_DIR$/TP/TP3/adduser.php" />
+        <option value="$APPLICATION_CONFIG_DIR$/consoles/.datagrid/cell" />
+        <option value="$PROJECT_DIR$/TP/TP4/signin.php" />
+        <option value="$PROJECT_DIR$/TP/TP4/authenticate.php" />
+        <option value="$PROJECT_DIR$/TP/TP4/formpassword.php" />
+        <option value="$PROJECT_DIR$/TP/TP4/changepassword.php" />
+        <option value="$PROJECT_DIR$/TP/TP4/deleteuser.php" />
+        <option value="$PROJECT_DIR$/TP/TP4/welcome.php" />
+        <option value="$PROJECT_DIR$/TP/TP4/adduser.php" />
       </list>
     </option>
   </component>
@@ -181,24 +240,12 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
             <path>
               <item name="W31" type="b2602c69:ProjectViewProjectNode" />
               <item name="W31" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="W31" type="b2602c69:ProjectViewProjectNode" />
-              <item name="W31" type="462c0819:PsiDirectoryNode" />
-              <item name="correction" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="W31" type="b2602c69:ProjectViewProjectNode" />
-              <item name="W31" type="462c0819:PsiDirectoryNode" />
-              <item name="correction" type="462c0819:PsiDirectoryNode" />
-              <item name="TP2" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="W31" type="b2602c69:ProjectViewProjectNode" />
@@ -211,33 +258,42 @@
               <item name="TP" type="462c0819:PsiDirectoryNode" />
               <item name="TP3" type="462c0819:PsiDirectoryNode" />
             </path>
+            <path>
+              <item name="W31" type="b2602c69:ProjectViewProjectNode" />
+              <item name="W31" type="462c0819:PsiDirectoryNode" />
+              <item name="TP" type="462c0819:PsiDirectoryNode" />
+              <item name="TP4" type="462c0819:PsiDirectoryNode" />
+            </path>
           </expand>
           <select />
         </subPane>
       </pane>
+      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
     <property name="DatabaseDriversLRU" value="mysql" />
     <property name="DefaultHtmlFileTemplate" value="HTML File" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="database.console.LAST_STATE" value="false" />
+    <property name="database.console.LAST_STATE" value="true" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
-    <property name="settings.editor.selected.configurable" value="vcs.Git" />
+    <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
   </component>
   <component name="RecentsManager">
-    <key name="MoveFile.RECENT_KEYS">
-      <recent name="C:\wamp64\www\W31\TP\TP3" />
-      <recent name="C:\wamp64\www\W31\TP" />
-      <recent name="C:\wamp64\www\W31\TP\TP1" />
-    </key>
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\wamp64\www\W31\TP\TP4" />
       <recent name="C:\wamp64\www\W31\TP\TP3" />
       <recent name="C:\wamp64\www\W31\TP\TP1\Ex4" />
       <recent name="C:\wamp64\www\W31\TP\TP1\Ex3" />
       <recent name="C:\wamp64\www\W31\TP\TP1\Ex2" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\wamp64\www\W31\TP\TP4" />
+      <recent name="C:\wamp64\www\W31\TP\TP3" />
+      <recent name="C:\wamp64\www\W31\TP" />
+      <recent name="C:\wamp64\www\W31\TP\TP1" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -279,7 +335,8 @@
       <workItem from="1569698988046" duration="934000" />
       <workItem from="1569759084904" duration="1757000" />
       <workItem from="1570024936111" duration="5144000" />
-      <workItem from="1570632025855" duration="1827000" />
+      <workItem from="1570632025855" duration="1954000" />
+      <workItem from="1571233783144" duration="5440000" />
     </task>
     <task id="LOCAL-00001" summary="Mise à jour de l'arborescence des fichiers">
       <created>1568367798811</created>
@@ -309,17 +366,24 @@
       <option name="project" value="LOCAL" />
       <updated>1569760583995</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="Fin du tp3">
+      <created>1570633946752</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1570633946754</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="26879000" />
+    <option name="totallyTimeSpent" value="32446000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1296" height="786" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" weight="0.27912623" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.27912623" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
@@ -330,12 +394,12 @@
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" />
       <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Database Changes" order="8" visible="true" weight="0.32924962" />
+      <window_info anchor="bottom" id="Database Changes" order="8" weight="0.32924962" />
       <window_info anchor="bottom" id="Version Control" order="9" weight="0.32924962" />
       <window_info anchor="bottom" id="Terminal" order="10" weight="0.32924962" />
       <window_info anchor="bottom" id="Event Log" order="11" side_tool="true" />
       <window_info anchor="bottom" id="Messages" order="12" weight="0.32924962" />
-      <window_info anchor="bottom" id="Database Console" order="13" weight="0.32924962" />
+      <window_info anchor="bottom" id="Database Console" order="13" visible="true" weight="0.32924962" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
@@ -417,7 +481,8 @@
     <MESSAGE value="Fin de l'exercice 2" />
     <MESSAGE value="Fin de l'exercice 3" />
     <MESSAGE value="Fin du TP2" />
-    <option name="LAST_COMMIT_MESSAGE" value="Fin du TP2" />
+    <MESSAGE value="Fin du tp3" />
+    <option name="LAST_COMMIT_MESSAGE" value="Fin du tp3" />
   </component>
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/TP/TP1/bonjour.php" />
@@ -611,13 +676,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="das://7e43953e-315b-4de9-a42c-664aa66ced18/schema/w31/table/users">
-      <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
-        <state>
-          <filtering enabled="true" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/TP/TP3/signup.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="238">
@@ -625,17 +683,90 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/TP/TP3/authenticate.php">
+    <entry file="file://$PROJECT_DIR$/TP/TP3/adduser.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="197">
-          <caret line="56" column="1" lean-forward="true" selection-start-line="56" selection-start-column="1" selection-end-line="56" selection-end-column="1" />
+        <state relative-caret-position="663">
+          <caret line="44" column="57" selection-start-line="44" selection-start-column="57" selection-end-line="44" selection-end-column="57" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/TP/TP3/adduser.php">
+    <entry file="file://$PROJECT_DIR$/TP/TP4/signin.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="220">
-          <caret line="44" column="57" lean-forward="true" selection-start-line="44" selection-start-column="57" selection-end-line="44" selection-end-column="57" />
+        <state>
+          <caret column="5" lean-forward="true" selection-start-column="5" selection-end-column="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="das://7e43953e-315b-4de9-a42c-664aa66ced18/schema/w31/table/users">
+      <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
+        <state>
+          <filtering enabled="true" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/TP/TP3/authenticate.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="44">
+          <caret line="56" column="1" selection-start-line="56" selection-start-column="1" selection-end-line="56" selection-end-column="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/TP/TP4/authenticate.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="136">
+          <caret line="14" selection-start-line="14" selection-end-line="21" selection-end-column="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/TP/TP4/formpassword.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="170">
+          <caret line="19" column="68" selection-start-line="19" selection-start-column="68" selection-end-line="19" selection-end-column="68" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/TP/TP4/changepassword.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="17">
+          <caret line="31" selection-start-line="31" selection-end-line="51" selection-end-column="1" />
+          <folding>
+            <element signature="e#613#755#0#PHP" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/TP/TP4/welcome.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="356">
+          <caret line="21" column="63" lean-forward="true" selection-start-line="21" selection-start-column="63" selection-end-line="21" selection-end-column="63" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/TP/TP4/signup.php">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/TP/TP4/adduser.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="138">
+          <caret line="45" column="78" selection-start-line="45" selection-start-column="78" selection-end-line="45" selection-end-column="78" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/TP/TP4/TP4.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="SECOND">
+          <first_editor />
+          <second_editor />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/TP/TP4/deleteuser.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="305">
+          <caret line="26" column="33" selection-start-line="26" selection-start-column="33" selection-end-line="26" selection-end-column="33" />
+          <folding>
+            <element signature="e#134#276#0#PHP" />
+          </folding>
         </state>
       </provider>
     </entry>
