@@ -2,18 +2,12 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="0c21f14b-21ae-4266-9393-c79a0bdfada5" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/TP/TP4/adduser.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/TP/TP4/authenticate.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/TP/TP4/bdd.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/TP/TP4/changepassword.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/TP/TP4/deleteuser.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/TP/TP4/formpassword.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/TP/TP4/signin.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/TP/TP4/signout.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/TP/TP4/signup.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/TP/TP4/welcome.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/dictionaries/natha.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/TP/TP4/models/MyPDO.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/TP/TP4/models/Users.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/TP4.md" beforeDir="false" afterPath="$PROJECT_DIR$/TP/TP4/TP4.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/TP/TP4/authenticate.php" beforeDir="false" afterPath="$PROJECT_DIR$/TP/TP4/authenticate.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/TP/TP4/bdd.php" beforeDir="false" afterPath="$PROJECT_DIR$/TP/TP4/models/bdd.php" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -64,64 +58,36 @@
         <entry file="file://$PROJECT_DIR$/TP/TP4/TP4.md">
           <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
             <state split_layout="SECOND">
-              <first_editor />
+              <first_editor relative-caret-position="190">
+                <caret line="59" column="40" selection-start-line="59" selection-start-column="37" selection-end-line="59" selection-end-column="40" />
+              </first_editor>
               <second_editor />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/TP/TP4/deleteuser.php">
+        <entry file="file://$PROJECT_DIR$/TP/TP4/models/Users.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="305">
-              <caret line="26" column="33" selection-start-line="26" selection-start-column="33" selection-end-line="26" selection-end-column="33" />
+            <state relative-caret-position="272">
+              <caret line="52" column="31" selection-start-line="52" selection-start-column="31" selection-end-line="52" selection-end-column="31" />
               <folding>
-                <element signature="e#134#276#0#PHP" />
+                <element signature="n#getLogin#0;n#User#0;n#!!top" />
+                <element signature="n#setLogin#0;n#User#0;n#!!top" />
+                <element signature="n#getPassword#0;n#User#0;n#!!top" />
+                <element signature="n#setPassword#0;n#User#0;n#!!top" />
+                <element signature="n#getUSERTABLE#0;n#User#0;n#!!top" />
+                <element signature="n#setUSERTABLE#0;n#User#0;n#!!top" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/TP/TP4/welcome.php">
+        <entry file="file://$PROJECT_DIR$/TP/TP4/models/MyPDO.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="356">
-              <caret line="21" column="63" lean-forward="true" selection-start-line="21" selection-start-column="63" selection-end-line="21" selection-end-column="63" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/TP/TP4/signup.php">
-          <provider selected="true" editor-type-id="text-editor" />
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/TP/TP4/adduser.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="138">
-              <caret line="45" column="78" selection-start-line="45" selection-start-column="78" selection-end-line="45" selection-end-column="78" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/TP/TP4/changepassword.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="17">
-              <caret line="31" selection-start-line="31" selection-end-line="51" selection-end-column="1" />
-              <folding>
-                <element signature="e#613#755#0#PHP" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/TP/TP4/formpassword.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="170">
-              <caret line="19" column="68" selection-start-line="19" selection-start-column="68" selection-end-line="19" selection-end-column="68" />
+            <state relative-caret-position="85">
+              <caret line="5" column="1" selection-start-line="5" selection-start-column="1" selection-end-line="5" selection-end-column="1" />
             </state>
           </provider>
         </entry>
@@ -129,10 +95,19 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/TP/TP4/authenticate.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="136">
-              <caret line="14" selection-start-line="14" selection-end-line="21" selection-end-column="1" />
+            <state relative-caret-position="288">
+              <caret line="31" column="27" lean-forward="true" selection-start-line="31" selection-start-column="27" selection-end-line="31" selection-end-column="27" />
+              <folding>
+                <element signature="e#45#140#0#PHP" />
+                <element signature="e#210#311#0#PHP" />
+              </folding>
             </state>
           </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/TP/TP4/models/bdd.php">
+          <provider selected="true" editor-type-id="text-editor" />
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
@@ -217,12 +192,14 @@
         <option value="$PROJECT_DIR$/TP/TP3/adduser.php" />
         <option value="$APPLICATION_CONFIG_DIR$/consoles/.datagrid/cell" />
         <option value="$PROJECT_DIR$/TP/TP4/signin.php" />
-        <option value="$PROJECT_DIR$/TP/TP4/authenticate.php" />
         <option value="$PROJECT_DIR$/TP/TP4/formpassword.php" />
         <option value="$PROJECT_DIR$/TP/TP4/changepassword.php" />
         <option value="$PROJECT_DIR$/TP/TP4/deleteuser.php" />
         <option value="$PROJECT_DIR$/TP/TP4/welcome.php" />
         <option value="$PROJECT_DIR$/TP/TP4/adduser.php" />
+        <option value="$PROJECT_DIR$/TP/TP4/authenticate.php" />
+        <option value="$PROJECT_DIR$/TP/TP4/models/MyPDO.php" />
+        <option value="$PROJECT_DIR$/TP/TP4/models/Users.php" />
       </list>
     </option>
   </component>
@@ -264,6 +241,13 @@
               <item name="TP" type="462c0819:PsiDirectoryNode" />
               <item name="TP4" type="462c0819:PsiDirectoryNode" />
             </path>
+            <path>
+              <item name="W31" type="b2602c69:ProjectViewProjectNode" />
+              <item name="W31" type="462c0819:PsiDirectoryNode" />
+              <item name="TP" type="462c0819:PsiDirectoryNode" />
+              <item name="TP4" type="462c0819:PsiDirectoryNode" />
+              <item name="models" type="462c0819:PsiDirectoryNode" />
+            </path>
           </expand>
           <select />
         </subPane>
@@ -275,25 +259,26 @@
     <property name="DatabaseDriversLRU" value="mysql" />
     <property name="DefaultHtmlFileTemplate" value="HTML File" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="database.console.LAST_STATE" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="database.console.LAST_STATE" value="false" />
+    <property name="last_opened_file_path" value="D:/Making/Ressources/SoftWare/fr_FR.dic/fr_FR.dic" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
-    <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
+    <property name="settings.editor.selected.configurable" value="reference.settings.ide.settings.spelling" />
   </component>
   <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\wamp64\www\W31\TP\TP4\models" />
+      <recent name="C:\wamp64\www\W31\TP\TP4" />
+      <recent name="C:\wamp64\www\W31\TP\TP3" />
+      <recent name="C:\wamp64\www\W31\TP" />
+      <recent name="C:\wamp64\www\W31\TP\TP1" />
+    </key>
     <key name="CopyFile.RECENT_KEYS">
       <recent name="C:\wamp64\www\W31\TP\TP4" />
       <recent name="C:\wamp64\www\W31\TP\TP3" />
       <recent name="C:\wamp64\www\W31\TP\TP1\Ex4" />
       <recent name="C:\wamp64\www\W31\TP\TP1\Ex3" />
       <recent name="C:\wamp64\www\W31\TP\TP1\Ex2" />
-    </key>
-    <key name="MoveFile.RECENT_KEYS">
-      <recent name="C:\wamp64\www\W31\TP\TP4" />
-      <recent name="C:\wamp64\www\W31\TP\TP3" />
-      <recent name="C:\wamp64\www\W31\TP" />
-      <recent name="C:\wamp64\www\W31\TP\TP1" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -318,6 +303,7 @@
       </list>
     </recent_temporary>
   </component>
+  <component name="SpellCheckerSettings" BundledDictionaries="0" Folders="1" Folder0="D:\Making\Ressources\SoftWare\fr_FR.dic" CustomDictionaries="1" CustomDictionary0="D:\Making\Ressources\SoftWare\fr_FR.dic\fr_FR.dic" Dictionaries="0" CorrectionsLimit="5" DefaultDictionary="project-level" UseSingleDictionary="true" />
   <component name="SvnConfiguration">
     <configuration />
   </component>
@@ -336,7 +322,8 @@
       <workItem from="1569759084904" duration="1757000" />
       <workItem from="1570024936111" duration="5144000" />
       <workItem from="1570632025855" duration="1954000" />
-      <workItem from="1571233783144" duration="5440000" />
+      <workItem from="1571233783144" duration="5914000" />
+      <workItem from="1571298262329" duration="5710000" />
     </task>
     <task id="LOCAL-00001" summary="Mise à jour de l'arborescence des fichiers">
       <created>1568367798811</created>
@@ -373,17 +360,24 @@
       <option name="project" value="LOCAL" />
       <updated>1570633946754</updated>
     </task>
-    <option name="localTasksCounter" value="6" />
+    <task id="LOCAL-00006" summary="Exercice 1 et 2 du tp4 + ajout de hashage des mots de passe">
+      <created>1571239874269</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1571239874271</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="32446000" />
+    <option name="totallyTimeSpent" value="38630000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1296" height="786" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.27912623" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.28398058" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
@@ -399,11 +393,11 @@
       <window_info anchor="bottom" id="Terminal" order="10" weight="0.32924962" />
       <window_info anchor="bottom" id="Event Log" order="11" side_tool="true" />
       <window_info anchor="bottom" id="Messages" order="12" weight="0.32924962" />
-      <window_info anchor="bottom" id="Database Console" order="13" visible="true" weight="0.32924962" />
+      <window_info anchor="bottom" id="Database Console" order="13" weight="0.32924962" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
-      <window_info active="true" anchor="right" id="Database" order="3" visible="true" weight="0.32928804" />
+      <window_info anchor="right" id="Database" order="3" weight="0.32928804" />
     </layout>
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -482,7 +476,8 @@
     <MESSAGE value="Fin de l'exercice 3" />
     <MESSAGE value="Fin du TP2" />
     <MESSAGE value="Fin du tp3" />
-    <option name="LAST_COMMIT_MESSAGE" value="Fin du tp3" />
+    <MESSAGE value="Exercice 1 et 2 du tp4 + ajout de hashage des mots de passe" />
+    <option name="LAST_COMMIT_MESSAGE" value="Exercice 1 et 2 du tp4 + ajout de hashage des mots de passe" />
   </component>
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/TP/TP1/bonjour.php" />
@@ -524,17 +519,17 @@
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/TP/TP1/Ex3/reponses.md">
+      <provider editor-type-id="text-editor">
+        <state relative-caret-position="68">
+          <caret line="4" column="55" lean-forward="true" selection-start-line="4" selection-start-column="55" selection-end-line="4" selection-end-column="55" />
+        </state>
+      </provider>
       <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
         <state split_layout="SPLIT">
           <first_editor relative-caret-position="102">
             <caret line="6" column="1" selection-start-line="6" selection-start-column="1" selection-end-line="6" selection-end-column="1" />
           </first_editor>
           <second_editor />
-        </state>
-      </provider>
-      <provider editor-type-id="text-editor">
-        <state relative-caret-position="68">
-          <caret line="4" column="55" lean-forward="true" selection-start-line="4" selection-start-column="55" selection-end-line="4" selection-end-column="55" />
         </state>
       </provider>
     </entry>
@@ -697,13 +692,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="das://7e43953e-315b-4de9-a42c-664aa66ced18/schema/w31/table/users">
-      <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
-        <state>
-          <filtering enabled="true" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/TP/TP3/authenticate.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="44">
@@ -711,34 +699,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/TP/TP4/authenticate.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="136">
-          <caret line="14" selection-start-line="14" selection-end-line="21" selection-end-column="1" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/TP/TP4/formpassword.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="170">
-          <caret line="19" column="68" selection-start-line="19" selection-start-column="68" selection-end-line="19" selection-end-column="68" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/TP/TP4/changepassword.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="17">
-          <caret line="31" selection-start-line="31" selection-end-line="51" selection-end-column="1" />
-          <folding>
-            <element signature="e#613#755#0#PHP" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/TP/TP4/welcome.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="356">
-          <caret line="21" column="63" lean-forward="true" selection-start-line="21" selection-start-column="63" selection-end-line="21" selection-end-column="63" />
+        <state relative-caret-position="357">
+          <caret line="21" column="63" selection-start-line="21" selection-start-column="63" selection-end-line="21" selection-end-column="63" />
         </state>
       </provider>
     </entry>
@@ -747,25 +711,91 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/TP/TP4/adduser.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="138">
+        <state relative-caret-position="680">
           <caret line="45" column="78" selection-start-line="45" selection-start-column="78" selection-end-line="45" selection-end-column="78" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/TP/TP4/changepassword.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="527">
+          <caret line="31" selection-start-line="31" selection-end-line="51" selection-end-column="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/TP/TP4/formpassword.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="323">
+          <caret line="19" column="68" selection-start-line="19" selection-start-column="68" selection-end-line="19" selection-end-column="68" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/TP/TP4/deleteuser.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="408">
+          <caret line="26" column="26" selection-start-line="26" selection-end-line="27" />
+          <folding>
+            <element signature="e#134#276#0#PHP" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/correction/TP4/models/MyPDO.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="238">
+          <caret line="14" column="5" lean-forward="true" selection-end-line="16" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/TP/TP4/TP4.md">
       <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
         <state split_layout="SECOND">
-          <first_editor />
+          <first_editor relative-caret-position="190">
+            <caret line="59" column="40" selection-start-line="59" selection-start-column="37" selection-end-line="59" selection-end-column="40" />
+          </first_editor>
           <second_editor />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/TP/TP4/deleteuser.php">
+    <entry file="file://$PROJECT_DIR$/TP/TP4/models/bdd.php">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="das://7e43953e-315b-4de9-a42c-664aa66ced18/schema/w31/table/users">
+      <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
+        <state>
+          <filtering enabled="true" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/TP/TP4/models/MyPDO.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="305">
-          <caret line="26" column="33" selection-start-line="26" selection-start-column="33" selection-end-line="26" selection-end-column="33" />
+        <state relative-caret-position="85">
+          <caret line="5" column="1" selection-start-line="5" selection-start-column="1" selection-end-line="5" selection-end-column="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/TP/TP4/authenticate.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="288">
+          <caret line="31" column="27" lean-forward="true" selection-start-line="31" selection-start-column="27" selection-end-line="31" selection-end-column="27" />
           <folding>
-            <element signature="e#134#276#0#PHP" />
+            <element signature="e#45#140#0#PHP" />
+            <element signature="e#210#311#0#PHP" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/TP/TP4/models/Users.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="272">
+          <caret line="52" column="31" selection-start-line="52" selection-start-column="31" selection-end-line="52" selection-end-column="31" />
+          <folding>
+            <element signature="n#getLogin#0;n#User#0;n#!!top" />
+            <element signature="n#setLogin#0;n#User#0;n#!!top" />
+            <element signature="n#getPassword#0;n#User#0;n#!!top" />
+            <element signature="n#setPassword#0;n#User#0;n#!!top" />
+            <element signature="n#getUSERTABLE#0;n#User#0;n#!!top" />
+            <element signature="n#setUSERTABLE#0;n#User#0;n#!!top" />
           </folding>
         </state>
       </provider>

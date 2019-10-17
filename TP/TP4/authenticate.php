@@ -1,75 +1,57 @@
-<?php
+<?php include "models/bdd.php";
+include "models/Users.php";
 
-include "bdd.php";
-
+// On reprend la session
 session_start();
 
+//Si la méthode n'est pas post, redirection
 if ( $_SERVER['REQUEST_METHOD'] != 'POST' )
 {
     header('Location: signin.php');
     exit();
 }
 
-unset($_SESSION['message']);
-
-// Incusion de la bdd
-try {
-    $pdo = new PDO(SQL_DSN, SQL_USERNAME, SQL_PASSWORD);
-}
-catch( PDOException $e ) {
-    echo 'Erreur : '.$e->getMessage();
-    exit;
-}
-
-
-$login = htmlspecialchars($_POST['login']);
-$password = htmlspecialchars($_POST['password']);
-
-/*
-//Requête simple
-$requete = "SELECT password FROM users WHERE login='" .$login ."'; ";
-$result = $pdo->query( $requete );
-
-
-$passwordTrue = $row["password"];
-*/
-
-//Requête préparée
-
-$result = $pdo->prepare("SELECT password FROM users WHERE login = :login");
-$result->bindValue(':login', $login, PDO::PARAM_STR);
-$result->execute();
-if($result->rowCount()!=0){
-    $row = $result->fetch();
-}
-else{
-    $_SESSION["message"] = "Login incorect.";
-    header('Location: signin.php');
-    exit();
-}
-$passwordBdd = $row["password"];
-
-
-
-
-
+//Si les variables ne sont pas créée
 if ( !isset($_POST['login'],$_POST['password']) )
 {
     header('Location: signin.php');
     exit();
 }
 
+//On supprime le message
+unset($_SESSION['message']);
 
+// Incusion de la bdd
+$login = htmlspecialchars($_POST['login']);
+$password = htmlspecialchars($_POST['password']);
+$user = new User($login, $password);
 
-
-if ( !password_verify($password, $passwordBdd))
-{
-
-    $_SESSION["message"] = "Mot de passe incorect";
+//Test d'existance de l'utilisateur
+$ok = false;
+try{
+    $ok =  $user->exists();
+}
+catch(Exception $e){
+    $_SESSION["message"] = $e;
     header('Location: signin.php');
     exit();
 }
 
-$_SESSION['user'] = $login;
-header('Location: welcome.php');
-exit();
+if(!$ok){
+    $_SESSION["message"] = "Mot de passe incorect";
+    header('Location: signin.php');
+    exit();
+}
+else {
+    $_SESSION["user"] = $login;
+    header('Location: welcome.php');
+    exit();
+}
+
+
+
+
+
+
+
+
