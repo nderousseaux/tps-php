@@ -2,7 +2,7 @@
 /******************************************************************************
  * On démarre la session
  */
-session_start();
+
 
 // On reset les messages
 unset($_SESSION['message']);
@@ -34,7 +34,7 @@ $confirmpassword = htmlspecialchars($_POST['confirmpassword']);
 if ( $newpassword != $confirmpassword )
 {
     $_SESSION['message'] = "Error: passwords are different.";
-    header('Location: /formpassword');
+    header('Location: /admin/formpassword');
     exit();
 }
 
@@ -68,5 +68,5 @@ catch (Exception $e) {
  * Si tout est ok, on retourne sur welcome.php
  */
 $_SESSION['message'] = "Password successfully updated.";
-header('Location: /welcome');
+header('Location: /admin/welcome');
 exit();

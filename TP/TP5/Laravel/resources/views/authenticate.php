@@ -2,7 +2,7 @@
 /******************************************************************************
  * On démarre la session
  */
-session_start();
+
 
 // On reset les messages
 unset($_SESSION['message']);
@@ -56,5 +56,5 @@ catch (Exception $e) {
  * Si tout est ok, on se connecte et se rend sur welcome.php
  */
 $_SESSION['user'] = $login;
-header('Location: /welcome');
+header('Location: /admin/welcome');
 exit();

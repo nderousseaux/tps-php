@@ -2,7 +2,7 @@
 /******************************************************************************
  * On démarre la session
  */
-session_start();
+
 
 // On reset les messages
 unset($_SESSION['message']);
@@ -35,14 +35,14 @@ catch (PDOException $e) {
     // Si erreur lors de la création de l'objet PDO
     // (déclenchée par MyPDO::pdo())
     $_SESSION['message'] = $e->getMessage();
-    header('Location: /welcome');
+    header('Location: /admin/welcome');
     exit();
 }
 catch (Exception $e) {
     // Si erreur durant l'exécution de la requête
     // (déclenchée par le throw de $user->create())
     $_SESSION['message'] = $e->getMessage();
-    header('Location: /welcome');
+    header('Location: /admin/welcome');
     exit();
 }
 

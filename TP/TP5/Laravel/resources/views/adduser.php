@@ -2,7 +2,7 @@
 /******************************************************************************
  * On démarre la session
  */
-session_start();
+
 
 // On reset les messages
 unset($_SESSION['message']);
