@@ -1,18 +1,99 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="0c21f14b-21ae-4266-9393-c79a0bdfada5" name="Default Changelist" comment="">
+    <list default="true" id="20d701e9-1c0d-4239-8034-6b4fca70220e" name="Default Changelist" comment="Demarrage JAC">
+      <change afterPath="$PROJECT_DIR$/TP/JAC/.idea/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/TP/JAC/.idea/JAC.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/TP/JAC/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/TP/JAC/.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/TP/JAC/.idea/php.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/TP/JAC/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/TP/JAC/d/.editorconfig" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/TP/JAC/d/.env.example" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/TP/JAC/d/.gitattributes" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/TP/JAC/d/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/TP/JAC/d/.styleci.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/TP/JAC/d/README.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/TP/JAC/d/app/Console/Kernel.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/TP/JAC/d/app/Exceptions/Handler.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/TP/JAC/d/app/Http/Controllers/Auth/ConfirmPasswordController.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/TP/JAC/d/app/Http/Controllers/Auth/ForgotPasswordController.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/TP/JAC/d/app/Http/Controllers/Auth/LoginController.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/TP/JAC/d/app/Http/Controllers/Auth/RegisterController.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/TP/JAC/d/app/Http/Controllers/Auth/ResetPasswordController.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/TP/JAC/d/app/Http/Controllers/Auth/VerificationController.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/TP/JAC/d/app/Http/Controllers/Controller.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/TP/JAC/d/app/Http/Kernel.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/TP/JAC/d/app/Http/Middleware/Authenticate.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/TP/JAC/d/app/Http/Middleware/CheckForMaintenanceMode.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/TP/JAC/d/app/Http/Middleware/EncryptCookies.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/TP/JAC/d/app/Http/Middleware/RedirectIfAuthenticated.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/TP/JAC/d/app/Http/Middleware/TrimStrings.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/TP/JAC/d/app/Http/Middleware/TrustProxies.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/TP/JAC/d/app/Http/Middleware/VerifyCsrfToken.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/TP/JAC/d/app/Providers/AppServiceProvider.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/TP/JAC/d/app/Providers/AuthServiceProvider.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/TP/JAC/d/app/Providers/BroadcastServiceProvider.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/TP/JAC/d/app/Providers/EventServiceProvider.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/TP/JAC/d/app/Providers/RouteServiceProvider.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/TP/JAC/d/app/User.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/TP/JAC/d/artisan" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/TP/JAC/d/bootstrap/app.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/TP/JAC/d/bootstrap/cache/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/TP/JAC/d/composer.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/TP/JAC/d/composer.lock" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/TP/JAC/d/config/app.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/TP/JAC/d/config/auth.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/TP/JAC/d/config/broadcasting.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/TP/JAC/d/config/cache.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/TP/JAC/d/config/database.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/TP/JAC/d/config/filesystems.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/TP/JAC/d/config/hashing.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/TP/JAC/d/config/logging.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/TP/JAC/d/config/mail.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/TP/JAC/d/config/queue.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/TP/JAC/d/config/services.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/TP/JAC/d/config/session.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/TP/JAC/d/config/view.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/TP/JAC/d/database/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/TP/JAC/d/database/factories/UserFactory.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/TP/JAC/d/database/migrations/2019_11_27_112602_users.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/TP/JAC/d/database/seeds/DatabaseSeeder.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/TP/JAC/d/package.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/TP/JAC/d/phpunit.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/TP/JAC/d/public/.htaccess" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/TP/JAC/d/public/favicon.ico" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/TP/JAC/d/public/index.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/TP/JAC/d/public/robots.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/TP/JAC/d/public/web.config" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/TP/JAC/d/resources/js/app.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/TP/JAC/d/resources/js/bootstrap.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/TP/JAC/d/resources/lang/en/auth.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/TP/JAC/d/resources/lang/en/pagination.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/TP/JAC/d/resources/lang/en/passwords.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/TP/JAC/d/resources/lang/en/validation.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/TP/JAC/d/resources/sass/app.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/TP/JAC/d/resources/views/welcome.blade.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/TP/JAC/d/routes/api.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/TP/JAC/d/routes/channels.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/TP/JAC/d/routes/console.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/TP/JAC/d/routes/web.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/TP/JAC/d/server.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/TP/JAC/d/storage/app/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/TP/JAC/d/storage/app/public/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/TP/JAC/d/storage/framework/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/TP/JAC/d/storage/framework/cache/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/TP/JAC/d/storage/framework/cache/data/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/TP/JAC/d/storage/framework/sessions/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/TP/JAC/d/storage/framework/testing/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/TP/JAC/d/storage/framework/views/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/TP/JAC/d/storage/logs/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/TP/JAC/d/tests/CreatesApplication.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/TP/JAC/d/tests/Feature/ExampleTest.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/TP/JAC/d/tests/TestCase.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/TP/JAC/d/tests/Unit/ExampleTest.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/TP/JAC/d/webpack.mix.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/TP/TP5/Laravel/resources/views/adduser.php" beforeDir="false" afterPath="$PROJECT_DIR$/TP/TP5/Laravel/resources/views/adduser.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/TP/TP5/Laravel/resources/views/authenticate.php" beforeDir="false" afterPath="$PROJECT_DIR$/TP/TP5/Laravel/resources/views/authenticate.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/TP/TP5/Laravel/resources/views/changepassword.php" beforeDir="false" afterPath="$PROJECT_DIR$/TP/TP5/Laravel/resources/views/changepassword.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/TP/TP5/Laravel/resources/views/deleteuser.php" beforeDir="false" afterPath="$PROJECT_DIR$/TP/TP5/Laravel/resources/views/deleteuser.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/TP/TP5/Laravel/resources/views/formpassword.php" beforeDir="false" afterPath="$PROJECT_DIR$/TP/TP5/Laravel/resources/views/formpassword.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/TP/TP5/Laravel/resources/views/signin.php" beforeDir="false" afterPath="$PROJECT_DIR$/TP/TP5/Laravel/resources/views/signin.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/TP/TP5/Laravel/resources/views/signout.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/TP/TP5/Laravel/resources/views/signup.php" beforeDir="false" afterPath="$PROJECT_DIR$/TP/TP5/Laravel/resources/views/signup.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/TP/TP5/Laravel/resources/views/welcome.php" beforeDir="false" afterPath="$PROJECT_DIR$/TP/TP5/Laravel/resources/views/welcome.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/TP/TP5/Laravel/routes/web.php" beforeDir="false" afterPath="$PROJECT_DIR$/TP/TP5/Laravel/routes/web.php" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -81,17 +162,17 @@
     <option name="PREVIEW_PUSH_PROTECTED_ONLY" value="true" />
   </component>
   <component name="HighlightingSettingsPerFile">
+    <setting file="file://$PROJECT_DIR$/TP/TP1/Ex3/reponses.md" root0="SKIP_INSPECTION" />
     <setting file="file://$PROJECT_DIR$/TP/TP4/changepassword.php" root0="SKIP_INSPECTION" root1="SKIP_INSPECTION" />
     <setting file="file://$PROJECT_DIR$/TP/TP4/authenticate.php" root0="SKIP_INSPECTION" root1="SKIP_INSPECTION" />
-    <setting file="file://$PROJECT_DIR$/TP/TP5/Laravel/routes/web.php" root0="SKIP_INSPECTION" root1="SKIP_INSPECTION" />
+    <setting file="file://$PROJECT_DIR$/TP/TP1/Ex4/counter.php" root0="SKIP_INSPECTION" root1="SKIP_INSPECTION" />
     <setting file="file://$PROJECT_DIR$/TP/TP4/deleteuser.php" root0="SKIP_INSPECTION" root1="SKIP_INSPECTION" />
     <setting file="file://$PROJECT_DIR$/TP/TP4/signin.php" root0="SKIP_INSPECTION" root1="SKIP_INSPECTION" />
-    <setting file="file://$PROJECT_DIR$/TP/TP1/Ex3/counter.php" root0="SKIP_INSPECTION" root1="SKIP_INSPECTION" />
-    <setting file="file://$PROJECT_DIR$/TP/TP3/authenticate.php" root0="SKIP_INSPECTION" root1="SKIP_INSPECTION" />
-    <setting file="file://$PROJECT_DIR$/TP/TP1/Ex3/reponses.md" root0="SKIP_INSPECTION" />
-    <setting file="file://$PROJECT_DIR$/TP/TP1/Ex4/counter.php" root0="SKIP_INSPECTION" root1="SKIP_INSPECTION" />
     <setting file="file://$PROJECT_DIR$/TP/TP2/authenticate.php" root0="SKIP_INSPECTION" root1="SKIP_INSPECTION" />
+    <setting file="file://$PROJECT_DIR$/TP/TP3/authenticate.php" root0="SKIP_INSPECTION" root1="SKIP_INSPECTION" />
+    <setting file="file://$PROJECT_DIR$/TP/TP5/Laravel/routes/web.php" root0="SKIP_INSPECTION" root1="SKIP_INSPECTION" />
     <setting file="file://$PROJECT_DIR$/TP/TP4/formpassword.php" root0="SKIP_INSPECTION" root1="SKIP_INSPECTION" />
+    <setting file="file://$PROJECT_DIR$/TP/TP1/Ex3/counter.php" root0="SKIP_INSPECTION" root1="SKIP_INSPECTION" />
   </component>
   <component name="IgnoredFileRootStore">
     <option name="generatedRoots">
