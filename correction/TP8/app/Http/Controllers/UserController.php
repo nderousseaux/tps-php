@@ -160,7 +160,8 @@ class UserController extends Controller
     public function deleteUser( Request $request )
     {
         // On détruit l'utilisateur de la BDD
-        UserEloquent::destroy($request->session()->get('user'));
+
+
 
         // Si tout est ok, on détruit la session et retourne sur signin
         $request->session()->flush();

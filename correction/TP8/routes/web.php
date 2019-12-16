@@ -23,7 +23,7 @@ Route::post('adduser', 'UserController@addUser');
 
 /* ------------------------------------------------------------------------
 | Admin routing */
-Route::prefix('admin')->middleware('myuser.auth')->group( function() {
+Route::prefix('admin')->middleware( 'myuser.auth')->group( function() {
 
     Route::get('welcome', 'UserController@welcome');
     Route::get('formpassword', 'UserController@formpassword');
