@@ -93,7 +93,7 @@ class FlattenExceptionTest extends TestCase
         $this->assertEquals(['Allow' => 'POST'], $flattened->getHeaders());
 
         $flattened = FlattenException::create(new UnauthorizedHttpException('Basic realm="My Realm"'));
-        $this->assertEquals(['WWW-Authenticate' => 'Basic realm="My Realm"'], $flattened->getHeaders());
+        $this->assertEquals(['WWW-session' => 'Basic realm="My Realm"'], $flattened->getHeaders());
 
         $flattened = FlattenException::create(new ServiceUnavailableHttpException('Fri, 31 Dec 1999 23:59:59 GMT'));
         $this->assertEquals(['Retry-After' => 'Fri, 31 Dec 1999 23:59:59 GMT'], $flattened->getHeaders());

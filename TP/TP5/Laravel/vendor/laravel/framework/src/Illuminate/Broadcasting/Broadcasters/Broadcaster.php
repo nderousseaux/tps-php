@@ -42,7 +42,7 @@ abstract class Broadcaster implements BroadcasterContract
     }
 
     /**
-     * Authenticate the incoming request for a given channel.
+     * session the incoming request for a given channel.
      *
      * @param  \Illuminate\Http\Request  $request
      * @param  string  $channel

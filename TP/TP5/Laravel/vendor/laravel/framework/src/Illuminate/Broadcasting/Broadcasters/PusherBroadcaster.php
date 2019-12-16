@@ -29,7 +29,7 @@ class PusherBroadcaster extends Broadcaster
     }
 
     /**
-     * Authenticate the incoming request for a given channel.
+     * session the incoming request for a given channel.
      *
      * @param  \Illuminate\Http\Request  $request
      * @return mixed

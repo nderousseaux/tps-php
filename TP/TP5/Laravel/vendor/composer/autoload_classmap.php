@@ -614,7 +614,7 @@ return array(
     'Illuminate\\Auth\\Events\\Registered' => $vendorDir . '/laravel/framework/src/Illuminate/Auth/Events/Registered.php',
     'Illuminate\\Auth\\GenericUser' => $vendorDir . '/laravel/framework/src/Illuminate/Auth/GenericUser.php',
     'Illuminate\\Auth\\GuardHelpers' => $vendorDir . '/laravel/framework/src/Illuminate/Auth/GuardHelpers.php',
-    'Illuminate\\Auth\\Middleware\\Authenticate' => $vendorDir . '/laravel/framework/src/Illuminate/Auth/Middleware/Authenticate.php',
+    'Illuminate\\Auth\\Middleware\\Authenticate' => $vendorDir . '/laravel/framework/src/Illuminate/Auth/Middleware/session,
     'Illuminate\\Auth\\Middleware\\AuthenticateWithBasicAuth' => $vendorDir . '/laravel/framework/src/Illuminate/Auth/Middleware/AuthenticateWithBasicAuth.php',
     'Illuminate\\Auth\\Middleware\\Authorize' => $vendorDir . '/laravel/framework/src/Illuminate/Auth/Middleware/Authorize.php',
     'Illuminate\\Auth\\Notifications\\ResetPassword' => $vendorDir . '/laravel/framework/src/Illuminate/Auth/Notifications/ResetPassword.php',

@@ -335,7 +335,7 @@ class SessionGuard implements StatefulGuard, SupportsBasicAuth
      */
     protected function failedBasicResponse()
     {
-        return new Response('Invalid credentials.', 401, ['WWW-Authenticate' => 'Basic']);
+        return new Response('Invalid credentials.', 401, ['WWW-session' => 'Basic']);
     }
 
     /**

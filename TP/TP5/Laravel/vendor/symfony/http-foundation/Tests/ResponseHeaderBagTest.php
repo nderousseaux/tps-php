@@ -27,7 +27,7 @@ class ResponseHeaderBagTest extends TestCase
             'ETag' => 'xyzzy',
             'Content-MD5' => 'Q2hlY2sgSW50ZWdyaXR5IQ==',
             'P3P' => 'CP="CAO PSA OUR"',
-            'WWW-Authenticate' => 'Basic realm="WallyWorld"',
+            'WWW-session' => 'Basic realm="WallyWorld"',
             'X-UA-Compatible' => 'IE=edge,chrome=1',
             'X-XSS-Protection' => '1; mode=block',
         ];

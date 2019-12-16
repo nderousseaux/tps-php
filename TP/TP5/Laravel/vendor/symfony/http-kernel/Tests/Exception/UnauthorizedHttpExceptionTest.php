@@ -9,7 +9,7 @@ class UnauthorizedHttpExceptionTest extends HttpExceptionTest
     public function testHeadersDefault()
     {
         $exception = new UnauthorizedHttpException('Challenge');
-        $this->assertSame(['WWW-Authenticate' => 'Challenge'], $exception->getHeaders());
+        $this->assertSame(['WWW-session' => 'Challenge'], $exception->getHeaders());
     }
 
     /**

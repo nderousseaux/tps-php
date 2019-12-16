@@ -2,64 +2,84 @@
 
 /*
 |--------------------------------------------------------------------------
-| Web Routes
+| Application Routes
 |--------------------------------------------------------------------------
 |
-| Here is where you can register web routes for your application. These
-| routes are loaded by the RouteServiceProvider within a group which
-| contains the "web" middleware group. Now create something great!
+| Here is where you can register all of the routes for an application.
+| It is a breeze. Simply tell Lumen the URIs it should respond to
+| and give it the Closure to call when that URI is requested.
 |
 */
 
-Route::group([], function (){
+// Partie publique ------------------------------------------------------------
 
-    session_start();
+// Racine
+$router->get('/', function () { return view('signin'); });
 
-    Route::get('/', function () {
-        return view('signin');
-    });
-    Route::get('/signin', function () {
-        return view('signin');
-    });
-    Route::get('/signup', function () {
-        return view('signup');
-    });
-    Route::post('/adduser', function () {
-        return view('adduser');
-    });
-    Route::post('/authenticate', function () {
-        return view('authenticate');
-    });
+// Connexion
+$router->get( 'signin', function () { return view('signin'); });
+$router->post('signin', function () { return redirect('signin'); });
+$router->get( 'authenticate', function () { return redirect('signin'); });
+$router->post('authenticate',
+    ['middleware' => 'session', 'uses' => 'UserController@authenticate'] );
 
-    Route::group(['prefix'=>'admin'], function(){
+// Inscription
+$router->get( 'signup', function () { return view('signup'); });
+$router->post('signup', function () { return redirect('signup'); });
+$router->get( 'adduser', function () { return redirect('signup'); });
+$router->post('adduser',
+    ['middleware' => 'session', 'uses' => 'UserController@adduser'] );
 
-        if(!isset($_SESSION["user"])){
-            return redirect('/signin');
-        }
-        else{
-            Route::get('/welcome', function () {
-                return view('welcome');
-            });
-            Route::get('/signout', function () {
-                session_destroy();
-                return redirect('/signin');
-            });
-            Route::get('/formpassword', function () {
-                return view('formpassword');
-            });
-            Route::get('/deleteuser', function () {
-                return view('deleteuser');
-            });
-            Route::post('/changepassword', function () {
-                return view('changepassword');
-            });
+// Partie account -------------------------------------------------------------
 
-        }
+$router->group(
+    ['prefix' => 'account','middleware' => 'session'],
+    function () use ($router) {
+        // Déconnexion
+        $router->get('signout', ['uses' => 'UserController@signout']);
 
+        // Page d'accueil
+        $router->get ('/',       function () { return view('welcome'); });
+        $router->get ('welcome', function () { return view('welcome'); });
+        $router->post('welcome', function () { return redirect('signin'); });
 
-    });
+        // Changement du mot de passe
+        $router->get ('formpassword', function () { return view('formpassword'); });
+        $router->post('formpassword', function () { return redirect('signin'); });
+        $router->get ('changepassword', function () { return redirect('formpassword'); });
+        $router->post('changepassword', ['uses' => 'UserController@changePassword']);
 
+        // Supprimer mon compte
+        $router->get ('deleteuser', ['uses' => 'UserController@deleteUser']);
+        $router->post('deleteuser', function () { return redirect('welcome'); });
 
+        //=====================================================================
 
-});
+        $router->get ('managepostes', function() { return view('managepostes'); });
+        $router->post('managepostes', function() { return redirect('managepostes'); });
 
+        $router->get ('allpostes', ['uses' => 'PostesController@allPostes']);
+        $router->post('allpostes', function() { return redirect('managepostes'); });
+
+        $router->get ('ajouterposte', function() { return view('formajouterposte'); });
+        $router->post('ajouterposte', ['uses' => 'PostesController@ajouterPoste']);
+
+        $router->get ('supprimerposte/{id}', ['uses' => 'PostesController@supprimerPoste']);
+        $router->post('supprimerposte', function() { return redirect('managepostes'); });
+
+        $router->get ('allreservations', ['uses' => 'ReservationsController@allReservations']);
+        $router->post('allreservations', function() { return redirect('managepostes'); });
+
+        $router->get ('ajouterreservation', function() { return view('formajouterreservation'); });
+        $router->post('ajouterreservation', ['uses' => 'ReservationsController@ajouterReservation']);
+
+        $router->get ('supprimerreservation/{id}', ['uses' => 'ReservationsController@supprimerReservation']);
+        $router->post('supprimerreservation', function() { return redirect('managepostes'); });
+
+        $router->get ('reservations/{id}', ['uses' => 'ReservationsController@duPoste']);
+        $router->post('reservations/{id}', function() { return redirect('managepostes'); });
+
+        $router->get ('mypostes', ['uses' => 'PostesController@userPostes']);
+        $router->post('mypostes', function() { return redirect('managepostes'); });
+    }
+);
