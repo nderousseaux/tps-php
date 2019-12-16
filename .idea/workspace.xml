@@ -2,109 +2,18 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="20d701e9-1c0d-4239-8034-6b4fca70220e" name="Default Changelist" comment="Demarrage JAC">
-      <change afterPath="$PROJECT_DIR$/TP/JAC/.idea/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/TP/JAC/.idea/JAC.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/TP/JAC/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/TP/JAC/.idea/modules.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/TP/JAC/.idea/php.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/TP/JAC/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/TP/JAC/d/.editorconfig" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/TP/JAC/d/.env.example" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/TP/JAC/d/.gitattributes" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/TP/JAC/d/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/TP/JAC/d/.styleci.yml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/TP/JAC/d/README.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/TP/JAC/d/app/Console/Kernel.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/TP/JAC/d/app/Exceptions/Handler.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/TP/JAC/d/app/Http/Controllers/Auth/ConfirmPasswordController.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/TP/JAC/d/app/Http/Controllers/Auth/ForgotPasswordController.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/TP/JAC/d/app/Http/Controllers/Auth/LoginController.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/TP/JAC/d/app/Http/Controllers/Auth/RegisterController.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/TP/JAC/d/app/Http/Controllers/Auth/ResetPasswordController.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/TP/JAC/d/app/Http/Controllers/Auth/VerificationController.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/TP/JAC/d/app/Http/Controllers/Controller.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/TP/JAC/d/app/Http/Kernel.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/TP/JAC/d/app/Http/Middleware/Authenticate.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/TP/JAC/d/app/Http/Middleware/CheckForMaintenanceMode.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/TP/JAC/d/app/Http/Middleware/EncryptCookies.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/TP/JAC/d/app/Http/Middleware/RedirectIfAuthenticated.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/TP/JAC/d/app/Http/Middleware/TrimStrings.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/TP/JAC/d/app/Http/Middleware/TrustProxies.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/TP/JAC/d/app/Http/Middleware/VerifyCsrfToken.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/TP/JAC/d/app/Providers/AppServiceProvider.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/TP/JAC/d/app/Providers/AuthServiceProvider.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/TP/JAC/d/app/Providers/BroadcastServiceProvider.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/TP/JAC/d/app/Providers/EventServiceProvider.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/TP/JAC/d/app/Providers/RouteServiceProvider.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/TP/JAC/d/app/User.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/TP/JAC/d/artisan" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/TP/JAC/d/bootstrap/app.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/TP/JAC/d/bootstrap/cache/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/TP/JAC/d/composer.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/TP/JAC/d/composer.lock" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/TP/JAC/d/config/app.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/TP/JAC/d/config/auth.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/TP/JAC/d/config/broadcasting.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/TP/JAC/d/config/cache.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/TP/JAC/d/config/database.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/TP/JAC/d/config/filesystems.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/TP/JAC/d/config/hashing.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/TP/JAC/d/config/logging.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/TP/JAC/d/config/mail.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/TP/JAC/d/config/queue.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/TP/JAC/d/config/services.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/TP/JAC/d/config/session.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/TP/JAC/d/config/view.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/TP/JAC/d/database/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/TP/JAC/d/database/factories/UserFactory.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/TP/JAC/d/database/migrations/2019_11_27_112602_users.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/TP/JAC/d/database/seeds/DatabaseSeeder.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/TP/JAC/d/package.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/TP/JAC/d/phpunit.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/TP/JAC/d/public/.htaccess" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/TP/JAC/d/public/favicon.ico" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/TP/JAC/d/public/index.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/TP/JAC/d/public/robots.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/TP/JAC/d/public/web.config" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/TP/JAC/d/resources/js/app.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/TP/JAC/d/resources/js/bootstrap.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/TP/JAC/d/resources/lang/en/auth.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/TP/JAC/d/resources/lang/en/pagination.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/TP/JAC/d/resources/lang/en/passwords.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/TP/JAC/d/resources/lang/en/validation.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/TP/JAC/d/resources/sass/app.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/TP/JAC/d/resources/views/welcome.blade.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/TP/JAC/d/routes/api.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/TP/JAC/d/routes/channels.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/TP/JAC/d/routes/console.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/TP/JAC/d/routes/web.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/TP/JAC/d/server.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/TP/JAC/d/storage/app/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/TP/JAC/d/storage/app/public/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/TP/JAC/d/storage/framework/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/TP/JAC/d/storage/framework/cache/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/TP/JAC/d/storage/framework/cache/data/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/TP/JAC/d/storage/framework/sessions/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/TP/JAC/d/storage/framework/testing/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/TP/JAC/d/storage/framework/views/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/TP/JAC/d/storage/logs/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/TP/JAC/d/tests/CreatesApplication.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/TP/JAC/d/tests/Feature/ExampleTest.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/TP/JAC/d/tests/TestCase.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/TP/JAC/d/tests/Unit/ExampleTest.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/TP/JAC/d/webpack.mix.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/dataSources.local.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dataSources.local.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/dataSources.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dataSources.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/dataSources/7e43953e-315b-4de9-a42c-664aa66ced18.xml" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/TP-note-2018/ParcInfo/.env.example" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/TP-note-2018/ParcInfo/bootstrap/app.php" beforeDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
-  </component>
-  <component name="ComposerSettings">
-    <execution>
-      <executable />
-    </execution>
   </component>
   <component name="DatabaseView">
     <option name="SHOW_INTERMEDIATE" value="true" />
@@ -120,28 +29,88 @@
     <expand>
       <path>
         <item name="Database" type="3277223f:DatabaseStructure$DbRootGroup" />
-        <item name="w31@localhost" type="feb32156:DbDataSourceImpl" />
+        <item name="w31NathTpNote@mysql.iutrs.unistra.fr" type="feb32156:DbDataSourceImpl" />
       </path>
       <path>
         <item name="Database" type="3277223f:DatabaseStructure$DbRootGroup" />
-        <item name="w31@localhost" type="feb32156:DbDataSourceImpl" />
+        <item name="w31NathTpNote@mysql.iutrs.unistra.fr" type="feb32156:DbDataSourceImpl" />
         <item name="schemas" type="d4e8921:DatabaseStructure$FamilyGroup" />
       </path>
       <path>
         <item name="Database" type="3277223f:DatabaseStructure$DbRootGroup" />
-        <item name="w31@localhost" type="feb32156:DbDataSourceImpl" />
+        <item name="w31NathTpNote@mysql.iutrs.unistra.fr" type="feb32156:DbDataSourceImpl" />
         <item name="schemas" type="d4e8921:DatabaseStructure$FamilyGroup" />
-        <item name="w31: schema" type="76f4a085:MysqlImplModel$Schema" />
-      </path>
-      <path>
-        <item name="Database" type="3277223f:DatabaseStructure$DbRootGroup" />
-        <item name="w31@localhost" type="feb32156:DbDataSourceImpl" />
-        <item name="schemas" type="d4e8921:DatabaseStructure$FamilyGroup" />
-        <item name="w31: schema" type="76f4a085:MysqlImplModel$Schema" />
-        <item name="users: table" type="285a2a93:MysqlImplModel$Table" />
+        <item name="w31NathTpNote: schema" type="76f4a085:MysqlImplModel$Schema" />
       </path>
     </expand>
     <select />
+  </component>
+  <component name="FileEditorManager">
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/TP-note-2018/Preparation.md">
+          <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+            <state split_layout="SECOND">
+              <first_editor />
+              <second_editor />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/TP-note-2018/README.md">
+          <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+            <state split_layout="SECOND">
+              <first_editor />
+              <second_editor />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/TP/TP5/Laravel/bootstrap/app.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="180">
+              <caret line="21" column="1" lean-forward="true" selection-start-line="21" selection-start-column="1" selection-end-line="21" selection-end-column="1" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/TP-note-2018/ParcInfo/.env">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="210">
+              <caret line="14" selection-start-line="14" selection-end-line="14" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="uml://DATABASE/26ad0315-b7a9-4cd9-aa50-1a6709d30a54.SCHEMA:w31NathTpNote">
+          <provider selected="true" editor-type-id="UmlEditorProvider">
+            <state>
+              <ID>DATABASE</ID>
+              <OriginalElement>26ad0315-b7a9-4cd9-aa50-1a6709d30a54.SCHEMA:w31NathTpNote</OriginalElement>
+              <nodes>
+                <node x="0.0" y="214.0">26ad0315-b7a9-4cd9-aa50-1a6709d30a54.TABLE:w31NathTpNote.Postes</node>
+                <node x="0.0" y="0.0">26ad0315-b7a9-4cd9-aa50-1a6709d30a54.TABLE:w31NathTpNote.Reservations</node>
+                <node x="0.0" y="359.0">26ad0315-b7a9-4cd9-aa50-1a6709d30a54.TABLE:w31NathTpNote.Users</node>
+              </nodes>
+              <notes />
+              <edges />
+              <settings layout="Hierarchic Group" zoom="1.0" x="-274.0" y="45.5" />
+              <SelectedNodes>
+                <node>26ad0315-b7a9-4cd9-aa50-1a6709d30a54.TABLE:w31NathTpNote.Postes</node>
+              </SelectedNodes>
+              <Categories>
+                <Category>Key columns</Category>
+                <Category>Columns</Category>
+              </Categories>
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
   </component>
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
@@ -162,17 +131,25 @@
     <option name="PREVIEW_PUSH_PROTECTED_ONLY" value="true" />
   </component>
   <component name="HighlightingSettingsPerFile">
-    <setting file="file://$PROJECT_DIR$/TP/TP1/Ex3/reponses.md" root0="SKIP_INSPECTION" />
-    <setting file="file://$PROJECT_DIR$/TP/TP4/changepassword.php" root0="SKIP_INSPECTION" root1="SKIP_INSPECTION" />
-    <setting file="file://$PROJECT_DIR$/TP/TP4/authenticate.php" root0="SKIP_INSPECTION" root1="SKIP_INSPECTION" />
-    <setting file="file://$PROJECT_DIR$/TP/TP1/Ex4/counter.php" root0="SKIP_INSPECTION" root1="SKIP_INSPECTION" />
-    <setting file="file://$PROJECT_DIR$/TP/TP4/deleteuser.php" root0="SKIP_INSPECTION" root1="SKIP_INSPECTION" />
-    <setting file="file://$PROJECT_DIR$/TP/TP4/signin.php" root0="SKIP_INSPECTION" root1="SKIP_INSPECTION" />
-    <setting file="file://$PROJECT_DIR$/TP/TP2/authenticate.php" root0="SKIP_INSPECTION" root1="SKIP_INSPECTION" />
-    <setting file="file://$PROJECT_DIR$/TP/TP3/authenticate.php" root0="SKIP_INSPECTION" root1="SKIP_INSPECTION" />
     <setting file="file://$PROJECT_DIR$/TP/TP5/Laravel/routes/web.php" root0="SKIP_INSPECTION" root1="SKIP_INSPECTION" />
     <setting file="file://$PROJECT_DIR$/TP/TP4/formpassword.php" root0="SKIP_INSPECTION" root1="SKIP_INSPECTION" />
+    <setting file="file://$PROJECT_DIR$/TP/TP4/deleteuser.php" root0="SKIP_INSPECTION" root1="SKIP_INSPECTION" />
     <setting file="file://$PROJECT_DIR$/TP/TP1/Ex3/counter.php" root0="SKIP_INSPECTION" root1="SKIP_INSPECTION" />
+    <setting file="file://$PROJECT_DIR$/TP/TP4/changepassword.php" root0="SKIP_INSPECTION" root1="SKIP_INSPECTION" />
+    <setting file="file://$PROJECT_DIR$/TP/TP1/Ex4/counter.php" root0="SKIP_INSPECTION" root1="SKIP_INSPECTION" />
+    <setting file="file://$PROJECT_DIR$/TP/TP4/signin.php" root0="SKIP_INSPECTION" root1="SKIP_INSPECTION" />
+    <setting file="file://$PROJECT_DIR$/TP/TP3/authenticate.php" root0="SKIP_INSPECTION" root1="SKIP_INSPECTION" />
+    <setting file="file://$PROJECT_DIR$/TP/TP4/authenticate.php" root0="SKIP_INSPECTION" root1="SKIP_INSPECTION" />
+    <setting file="file://$PROJECT_DIR$/TP/TP1/Ex3/reponses.md" root0="SKIP_INSPECTION" />
+    <setting file="file://$PROJECT_DIR$/TP/TP2/authenticate.php" root0="SKIP_INSPECTION" root1="SKIP_INSPECTION" />
+  </component>
+  <component name="IdeDocumentHistory">
+    <option name="CHANGED_PATHS">
+      <list>
+        <option value="$APPLICATION_CONFIG_DIR$/scratches/scratch.sql" />
+        <option value="$PROJECT_DIR$/TP-note-2018/ParcInfo/.env.example" />
+      </list>
+    </option>
   </component>
   <component name="IgnoredFileRootStore">
     <option name="generatedRoots">
@@ -193,11 +170,88 @@
   <component name="ProjectLevelVcsManager" settingsEditedManually="true">
     <ConfirmationsSetting value="2" id="Add" />
   </component>
+  <component name="ProjectView">
+    <navigator proportions="" version="1">
+      <foldersAlwaysOnTop value="true" />
+    </navigator>
+    <panes>
+      <pane id="Scope" />
+      <pane id="ProjectPane">
+        <subPane>
+          <expand>
+            <path>
+              <item name="W31" type="b2602c69:ProjectViewProjectNode" />
+              <item name="W31" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="W31" type="b2602c69:ProjectViewProjectNode" />
+              <item name="W31" type="462c0819:PsiDirectoryNode" />
+              <item name="correction" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="W31" type="b2602c69:ProjectViewProjectNode" />
+              <item name="W31" type="462c0819:PsiDirectoryNode" />
+              <item name="correction" type="462c0819:PsiDirectoryNode" />
+              <item name="TP8" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="W31" type="b2602c69:ProjectViewProjectNode" />
+              <item name="W31" type="462c0819:PsiDirectoryNode" />
+              <item name="TP" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="W31" type="b2602c69:ProjectViewProjectNode" />
+              <item name="W31" type="462c0819:PsiDirectoryNode" />
+              <item name="TP" type="462c0819:PsiDirectoryNode" />
+              <item name="TP5" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="W31" type="b2602c69:ProjectViewProjectNode" />
+              <item name="W31" type="462c0819:PsiDirectoryNode" />
+              <item name="TP" type="462c0819:PsiDirectoryNode" />
+              <item name="TP5" type="462c0819:PsiDirectoryNode" />
+              <item name="Laravel" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="W31" type="b2602c69:ProjectViewProjectNode" />
+              <item name="W31" type="462c0819:PsiDirectoryNode" />
+              <item name="TP" type="462c0819:PsiDirectoryNode" />
+              <item name="TP5" type="462c0819:PsiDirectoryNode" />
+              <item name="Laravel" type="462c0819:PsiDirectoryNode" />
+              <item name="vendor" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="W31" type="b2602c69:ProjectViewProjectNode" />
+              <item name="W31" type="462c0819:PsiDirectoryNode" />
+              <item name="TP-note-2018" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="W31" type="b2602c69:ProjectViewProjectNode" />
+              <item name="W31" type="462c0819:PsiDirectoryNode" />
+              <item name="TP-note-2018" type="462c0819:PsiDirectoryNode" />
+              <item name="ParcInfo" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="W31" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Scratches and Consoles" type="1a2a3e82:ScratchProjectViewPane$MyProjectNode" />
+            </path>
+            <path>
+              <item name="W31" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Scratches and Consoles" type="1a2a3e82:ScratchProjectViewPane$MyProjectNode" />
+              <item name="Scratches" type="d62648e6:ScratchProjectViewPane$MyRootNode" />
+            </path>
+          </expand>
+          <select />
+        </subPane>
+      </pane>
+    </panes>
+  </component>
   <component name="PropertiesComponent">
     <property name="DatabaseDriversLRU" value="mysql" />
     <property name="DefaultHtmlFileTemplate" value="HTML File" />
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="com.intellij.ide.scratch.LRUPopupBuilder$1/New Scratch File" value="GenericSQL" />
     <property name="database.console.LAST_STATE" value="false" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$/TP/TP5/Laravel/resources/views" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
@@ -205,17 +259,17 @@
     <property name="settings.editor.selected.configurable" value="project.propVCSSupport.Mappings" />
   </component>
   <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/TP-note-2018/ParcInfo/bootstrap" />
+      <recent name="$PROJECT_DIR$/TP-note-2018/ParcInfo" />
+      <recent name="C:\wamp64\www\W31\correction\TP4\models" />
+      <recent name="C:\wamp64\www\W31\TP\TP4\models" />
+      <recent name="C:\wamp64\www\W31\TP\TP5\Laravel\resources\views" />
+    </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="C:\wamp64\www\W31\TP\TP5\Laravel\app" />
       <recent name="C:\wamp64\www\W31\TP" />
       <recent name="C:\wamp64\www\W31\TP\TP4\models" />
-      <recent name="C:\wamp64\www\W31\TP\TP4" />
-      <recent name="C:\wamp64\www\W31\TP\TP3" />
-    </key>
-    <key name="CopyFile.RECENT_KEYS">
-      <recent name="C:\wamp64\www\W31\correction\TP4\models" />
-      <recent name="C:\wamp64\www\W31\TP\TP4\models" />
-      <recent name="C:\wamp64\www\W31\TP\TP5\Laravel\resources\views" />
       <recent name="C:\wamp64\www\W31\TP\TP4" />
       <recent name="C:\wamp64\www\W31\TP\TP3" />
     </key>
@@ -333,6 +387,56 @@
     <option name="localTasksCounter" value="9" />
     <servers />
   </component>
+  <component name="TimeTrackingManager">
+    <option name="totallyTimeSpent" value="1181000" />
+  </component>
+  <component name="ToolWindowManager">
+    <frame x="-3" y="31" width="1926" height="1003" extended-state="6" />
+    <layout>
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.25825346" />
+      <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
+      <window_info id="Favorites" order="2" side_tool="true" />
+      <window_info anchor="bottom" id="Message" order="0" />
+      <window_info anchor="bottom" id="Find" order="1" weight="0.32886723" />
+      <window_info anchor="bottom" id="Run" order="2" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
+      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
+      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
+      <window_info anchor="bottom" id="TODO" order="6" />
+      <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Database Changes" order="8" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Version Control" order="9" weight="0.32839224" />
+      <window_info anchor="bottom" id="Terminal" order="10" visible="true" weight="0.3295325" />
+      <window_info anchor="bottom" id="Event Log" order="11" side_tool="true" />
+      <window_info anchor="bottom" id="Messages" order="12" />
+      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
+      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+      <window_info anchor="right" id="Database" order="3" weight="0.32960597" />
+    </layout>
+    <layout-to-restore>
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.25878593" />
+      <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
+      <window_info id="Favorites" order="2" side_tool="true" />
+      <window_info anchor="bottom" id="Message" order="0" />
+      <window_info anchor="bottom" id="Find" order="1" weight="0.32886723" />
+      <window_info anchor="bottom" id="Run" order="2" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
+      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
+      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
+      <window_info anchor="bottom" id="TODO" order="6" />
+      <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Database Changes" order="8" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Version Control" order="9" visible="true" weight="0.32839224" />
+      <window_info anchor="bottom" id="Terminal" order="10" weight="0.33008525" />
+      <window_info anchor="bottom" id="Event Log" order="11" side_tool="true" />
+      <window_info anchor="bottom" id="Messages" order="12" />
+      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
+      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+      <window_info active="true" anchor="right" id="Database" order="3" visible="true" weight="0.32960597" />
+    </layout-to-restore>
+  </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="1" />
   </component>
@@ -352,6 +456,12 @@
         <entry key="MAIN">
           <value>
             <State>
+              <option name="RECENTLY_FILTERED_USER_GROUPS">
+                <collection />
+              </option>
+              <option name="RECENTLY_FILTERED_BRANCH_GROUPS">
+                <collection />
+              </option>
               <option name="FILTERS">
                 <map>
                   <entry key="branch">
@@ -407,5 +517,158 @@
     <MESSAGE value="Début du TP5" />
     <MESSAGE value="TP5, fin de l'exercice 3" />
     <option name="LAST_COMMIT_MESSAGE" value="TP5, fin de l'exercice 3" />
+  </component>
+  <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/TP/JAC/lara/app/article.php">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/TP/JAC/lara/app/Http/Middleware/Authenticate.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="240">
+          <caret line="16" column="35" selection-start-line="16" selection-start-column="24" selection-end-line="16" selection-end-column="35" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/TP/JAC/lara/database/migrations/2014_10_12_000000_create_users_table.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="225">
+          <caret line="17" column="36" selection-start-line="17" selection-start-column="28" selection-end-line="17" selection-end-column="36" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/TP/JAC/lara/app/Http/Controllers/appliController.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="510">
+          <caret line="36" selection-start-line="36" selection-end-line="36" />
+          <folding>
+            <element signature="e#40#66#0#PHP" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/TP/JAC/lara/database/migrations/2019_12_04_102549_create_articles_table.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="225">
+          <caret line="17" column="31" selection-start-line="17" selection-start-column="26" selection-end-line="17" selection-end-column="31" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/TP/JAC/lara/app/users.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="585">
+          <caret line="41" column="32" selection-start-line="41" selection-start-column="32" selection-end-line="41" selection-end-column="32" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/TP/JAC/lara/resources/views/accueilNonConnecte.blade.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret column="20" selection-start-column="20" selection-end-column="20" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/TP/JAC/lara/resources/views/template.blade.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="15">
+          <caret line="23" column="30" selection-start-line="23" selection-start-column="30" selection-end-line="23" selection-end-column="30" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/TP/JAC/lara/resources/views/accueilConnecte.blade.php">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/TP-note-2018/Preparation.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="SECOND">
+          <first_editor />
+          <second_editor />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/TP/JAC/lara/resources/views/login.blade.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="105">
+          <caret line="7" column="24" selection-start-line="7" selection-start-column="21" selection-end-line="7" selection-end-column="24" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$APPLICATION_CONFIG_DIR$/consoles/db/24108574-fe43-4834-a713-242329cf26e0/console.sql">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$APPLICATION_CONFIG_DIR$/consoles/db/26ad0315-b7a9-4cd9-aa50-1a6709d30a54/console.sql">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$APPLICATION_CONFIG_DIR$/scratches/scratch.sql">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret selection-end-column="8" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/TP-note-2018/init_db.sql">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="105">
+          <caret line="7" column="36" selection-end-line="124" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/TP-note-2018/ParcInfo/.env">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="210">
+          <caret line="14" selection-start-line="14" selection-end-line="14" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="uml://DATABASE/26ad0315-b7a9-4cd9-aa50-1a6709d30a54.SCHEMA:w31NathTpNote">
+      <provider selected="true" editor-type-id="UmlEditorProvider">
+        <state>
+          <ID>DATABASE</ID>
+          <OriginalElement>26ad0315-b7a9-4cd9-aa50-1a6709d30a54.SCHEMA:w31NathTpNote</OriginalElement>
+          <nodes>
+            <node x="0.0" y="214.0">26ad0315-b7a9-4cd9-aa50-1a6709d30a54.TABLE:w31NathTpNote.Postes</node>
+            <node x="0.0" y="0.0">26ad0315-b7a9-4cd9-aa50-1a6709d30a54.TABLE:w31NathTpNote.Reservations</node>
+            <node x="0.0" y="359.0">26ad0315-b7a9-4cd9-aa50-1a6709d30a54.TABLE:w31NathTpNote.Users</node>
+          </nodes>
+          <notes />
+          <edges />
+          <settings layout="Hierarchic Group" zoom="1.0" x="-274.0" y="45.5" />
+          <SelectedNodes>
+            <node>26ad0315-b7a9-4cd9-aa50-1a6709d30a54.TABLE:w31NathTpNote.Postes</node>
+          </SelectedNodes>
+          <Categories>
+            <Category>Key columns</Category>
+            <Category>Columns</Category>
+          </Categories>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/TP-note-2018/ParcInfo/vendor/bin/psysh">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="210">
+          <caret line="14" lean-forward="true" selection-start-line="14" selection-end-line="14" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/TP-note-2018/README.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="SECOND">
+          <first_editor />
+          <second_editor />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/TP-note-2018/ParcInfo/bootstrap/bootstrap/cache/.gitignore">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/TP-note-2018/ParcInfo/bootstrap/cache/.gitignore">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/TP/TP5/Laravel/bootstrap/app.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="180">
+          <caret line="21" column="1" lean-forward="true" selection-start-line="21" selection-start-column="1" selection-end-line="21" selection-end-column="1" />
+        </state>
+      </provider>
+    </entry>
   </component>
 </project>
