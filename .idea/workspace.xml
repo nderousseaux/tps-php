@@ -2,124 +2,10 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="20d701e9-1c0d-4239-8034-6b4fca70220e" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/TP-note-2018/ParcInfo/app/app/Console/Kernel.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/TP-note-2018/ParcInfo/app/app/Exceptions/Handler.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/TP-note-2018/ParcInfo/app/app/Http/Controllers/Auth/ConfirmPasswordController.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/TP-note-2018/ParcInfo/app/app/Http/Controllers/Auth/VerificationController.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/TP-note-2018/ParcInfo/app/app/Http/Controllers/Controller.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/TP-note-2018/ParcInfo/app/app/Http/Controllers/UserController.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/TP-note-2018/ParcInfo/app/app/Http/Middleware/Authenticate.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/TP-note-2018/ParcInfo/app/app/Http/Middleware/CheckForMaintenanceMode.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/TP-note-2018/ParcInfo/app/app/Http/Middleware/EnsureMyUserIsAuthenticated.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/TP-note-2018/ParcInfo/app/app/Http/Middleware/TrustProxies.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/TP-note-2018/ParcInfo/app/app/Http/Middleware/VerifyCsrfToken.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/TP-note-2018/ParcInfo/app/app/Providers/AppServiceProvider.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/TP-note-2018/ParcInfo/app/app/Providers/AuthServiceProvider.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/TP-note-2018/ParcInfo/app/app/Providers/EventServiceProvider.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/TP-note-2018/ParcInfo/app/app/User.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/TP-note-2018/ParcInfo/app/app/UserEloquent.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/TP-note-2018/ParcInfo/bootstrap/app.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/TP-note-2018/ParcInfo/resources/views/Ajouter un poste.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/TP-note-2018/ParcInfo/resources/views/Ajouter une réservation.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/TP-note-2018/ParcInfo/resources/views/Change password.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/TP-note-2018/ParcInfo/resources/views/Liste de mes postes.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/TP-note-2018/ParcInfo/resources/views/Liste de mes reservations.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/TP-note-2018/ParcInfo/resources/views/Liste de tous les postes.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/TP-note-2018/ParcInfo/resources/views/Liste des réservations.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/TP-note-2018/ParcInfo/resources/views/Manage postes.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/TP-note-2018/ParcInfo/resources/views/My account.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/TP-note-2018/ParcInfo/resources/views/Réservations du poste n°1.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/TP-note-2018/ParcInfo/resources/views/Réservations du poste n°10.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/TP-note-2018/ParcInfo/resources/views/Réservations du poste n°2.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/TP-note-2018/ParcInfo/resources/views/Réservations du poste n°3.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/TP-note-2018/ParcInfo/resources/views/Réservations du poste n°4.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/TP-note-2018/ParcInfo/resources/views/Réservations du poste n°5.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/TP-note-2018/ParcInfo/resources/views/Réservations du poste n°6.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/TP-note-2018/ParcInfo/resources/views/Réservations du poste n°7.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/TP-note-2018/ParcInfo/resources/views/Réservations du poste n°8.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/TP-note-2018/ParcInfo/resources/views/Réservations du poste n°9.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/TP-note-2018/ParcInfo/resources/views/Signin.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/TP-note-2018/ParcInfo/resources/views/Signup.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/TP-note-2018/ParcInfo/resources/views/index.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/TP/TP5/Laravel/app/Console/Commands/.gitkeep" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/TP/TP5/Laravel/app/Events/Event.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/TP/TP5/Laravel/app/Events/ExampleEvent.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/TP/TP5/Laravel/app/Http/Controllers/ExampleController.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/TP/TP5/Laravel/app/Http/Controllers/UserController.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/TP/TP5/Laravel/app/Http/Middleware/ExampleMiddleware.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/TP/TP5/Laravel/app/Http/Middleware/session.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/TP/TP5/Laravel/app/Jobs/ExampleJob.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/TP/TP5/Laravel/app/Jobs/Job.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/TP/TP5/Laravel/app/Listeners/ExampleListener.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/TP/TP5/Laravel/app/Models/Model_Base.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/TP/TP5/Laravel/resources/views/Ajouter un poste.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/TP/TP5/Laravel/resources/views/Ajouter une réservation.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/TP/TP5/Laravel/resources/views/Change password.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/TP/TP5/Laravel/resources/views/Liste de mes postes.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/TP/TP5/Laravel/resources/views/Liste de mes reservations.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/TP/TP5/Laravel/resources/views/Liste de tous les postes.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/TP/TP5/Laravel/resources/views/Liste des réservations.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/TP/TP5/Laravel/resources/views/Manage postes.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/TP/TP5/Laravel/resources/views/My account.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/TP/TP5/Laravel/resources/views/Réservations du poste n°1.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/TP/TP5/Laravel/resources/views/Réservations du poste n°10.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/TP/TP5/Laravel/resources/views/Réservations du poste n°2.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/TP/TP5/Laravel/resources/views/Réservations du poste n°3.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/TP/TP5/Laravel/resources/views/Réservations du poste n°4.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/TP/TP5/Laravel/resources/views/Réservations du poste n°5.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/TP/TP5/Laravel/resources/views/Réservations du poste n°6.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/TP/TP5/Laravel/resources/views/Réservations du poste n°7.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/TP/TP5/Laravel/resources/views/Réservations du poste n°8.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/TP/TP5/Laravel/resources/views/Réservations du poste n°9.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/TP/TP5/Laravel/resources/views/Signup.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/TP/TP5/Laravel/resources/views/index.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/TP/TP5/Laravel/resources/views/signin.pĥp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tpnoteRendu/Laravel/app/Http/Controllers/ReservationsControler.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tpnoteRendu/Laravel/app/Http/Kernel.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tpnoteRendu/Laravel/app/Http/Middleware/EnsureMyUserIsAuthenticated.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/TP-note-2018/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/rendu/README.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/TP/JAC/d/app/Http/Kernel.php" beforeDir="false" afterPath="$PROJECT_DIR$/TP/JAC/d/app/Http/Kernel.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/TP/TP5/Laravel/.env" beforeDir="false" afterPath="$PROJECT_DIR$/TP/TP5/Laravel/.env" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/TP/TP5/Laravel/app/Console/Kernel.php" beforeDir="false" afterPath="$PROJECT_DIR$/TP/TP5/Laravel/app/Console/Kernel.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/TP/TP5/Laravel/app/Exceptions/Handler.php" beforeDir="false" afterPath="$PROJECT_DIR$/TP/TP5/Laravel/app/Exceptions/Handler.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/TP/TP5/Laravel/app/Http/Controllers/Auth/ForgotPasswordController.php" beforeDir="false" afterPath="$PROJECT_DIR$/TP-note-2018/ParcInfo/app/app/Http/Controllers/Auth/ForgotPasswordController.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/TP/TP5/Laravel/app/Http/Controllers/Auth/LoginController.php" beforeDir="false" afterPath="$PROJECT_DIR$/TP-note-2018/ParcInfo/app/app/Http/Controllers/Auth/LoginController.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/TP/TP5/Laravel/app/Http/Controllers/Auth/RegisterController.php" beforeDir="false" afterPath="$PROJECT_DIR$/TP-note-2018/ParcInfo/app/app/Http/Controllers/Auth/RegisterController.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/TP/TP5/Laravel/app/Http/Controllers/Auth/ResetPasswordController.php" beforeDir="false" afterPath="$PROJECT_DIR$/TP-note-2018/ParcInfo/app/app/Http/Controllers/Auth/ResetPasswordController.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/TP/TP5/Laravel/app/Http/Controllers/Controller.php" beforeDir="false" afterPath="$PROJECT_DIR$/TP/TP5/Laravel/app/Http/Controllers/Controller.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/TP/TP5/Laravel/app/Http/Kernel.php" beforeDir="false" afterPath="$PROJECT_DIR$/TP-note-2018/ParcInfo/app/app/Http/Kernel.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/TP/TP5/Laravel/app/Http/Middleware/EncryptCookies.php" beforeDir="false" afterPath="$PROJECT_DIR$/TP-note-2018/ParcInfo/app/app/Http/Middleware/EncryptCookies.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/TP/TP5/Laravel/app/Http/Middleware/RedirectIfAuthenticated.php" beforeDir="false" afterPath="$PROJECT_DIR$/TP-note-2018/ParcInfo/app/app/Http/Middleware/RedirectIfAuthenticated.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/TP/TP5/Laravel/app/Http/Middleware/TrimStrings.php" beforeDir="false" afterPath="$PROJECT_DIR$/TP-note-2018/ParcInfo/app/app/Http/Middleware/TrimStrings.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/TP/TP5/Laravel/app/Http/Middleware/VerifyCsrfToken.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/TP/TP5/Laravel/app/MyUser.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/TP/TP5/Laravel/app/Providers/AppServiceProvider.php" beforeDir="false" afterPath="$PROJECT_DIR$/TP/TP5/Laravel/app/Providers/AppServiceProvider.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/TP/TP5/Laravel/app/Providers/AuthServiceProvider.php" beforeDir="false" afterPath="$PROJECT_DIR$/TP/TP5/Laravel/app/Providers/AuthServiceProvider.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/TP/TP5/Laravel/app/Providers/BroadcastServiceProvider.php" beforeDir="false" afterPath="$PROJECT_DIR$/TP-note-2018/ParcInfo/app/app/Providers/BroadcastServiceProvider.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/TP/TP5/Laravel/app/Providers/EventServiceProvider.php" beforeDir="false" afterPath="$PROJECT_DIR$/TP/TP5/Laravel/app/Providers/EventServiceProvider.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/TP/TP5/Laravel/app/Providers/RouteServiceProvider.php" beforeDir="false" afterPath="$PROJECT_DIR$/TP-note-2018/ParcInfo/app/app/Providers/RouteServiceProvider.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/TP/TP5/Laravel/app/User.php" beforeDir="false" afterPath="$PROJECT_DIR$/TP/TP5/Laravel/app/User.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/TP/TP5/Laravel/resources/views/adduser.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/TP/TP5/Laravel/resources/views/authenticate.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/TP/TP5/Laravel/resources/views/changepassword.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/TP/TP5/Laravel/resources/views/deleteuser.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/TP/TP5/Laravel/resources/views/formpassword.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/TP/TP5/Laravel/resources/views/signin.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/TP/TP5/Laravel/resources/views/signup.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/TP/TP5/Laravel/resources/views/welcome.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/TP/TP5/Laravel/routes/web.php" beforeDir="false" afterPath="$PROJECT_DIR$/TP/TP5/Laravel/routes/web.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/TP/TP5/Laravel/vendor/composer/autoload_classmap.php" beforeDir="false" afterPath="$PROJECT_DIR$/TP/TP5/Laravel/vendor/composer/autoload_classmap.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/TP/TP5/Laravel/vendor/laravel/framework/src/Illuminate/Auth/SessionGuard.php" beforeDir="false" afterPath="$PROJECT_DIR$/TP/TP5/Laravel/vendor/laravel/framework/src/Illuminate/Auth/SessionGuard.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/TP/TP5/Laravel/vendor/laravel/framework/src/Illuminate/Broadcasting/BroadcastController.php" beforeDir="false" afterPath="$PROJECT_DIR$/TP/TP5/Laravel/vendor/laravel/framework/src/Illuminate/Broadcasting/BroadcastController.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/TP/TP5/Laravel/vendor/laravel/framework/src/Illuminate/Broadcasting/Broadcasters/Broadcaster.php" beforeDir="false" afterPath="$PROJECT_DIR$/TP/TP5/Laravel/vendor/laravel/framework/src/Illuminate/Broadcasting/Broadcasters/Broadcaster.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/TP/TP5/Laravel/vendor/laravel/framework/src/Illuminate/Broadcasting/Broadcasters/PusherBroadcaster.php" beforeDir="false" afterPath="$PROJECT_DIR$/TP/TP5/Laravel/vendor/laravel/framework/src/Illuminate/Broadcasting/Broadcasters/PusherBroadcaster.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/TP/TP5/Laravel/vendor/laravel/framework/src/Illuminate/Broadcasting/Broadcasters/RedisBroadcaster.php" beforeDir="false" afterPath="$PROJECT_DIR$/TP/TP5/Laravel/vendor/laravel/framework/src/Illuminate/Broadcasting/Broadcasters/RedisBroadcaster.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/TP/TP5/Laravel/vendor/laravel/framework/src/Illuminate/Contracts/Broadcasting/Broadcaster.php" beforeDir="false" afterPath="$PROJECT_DIR$/TP/TP5/Laravel/vendor/laravel/framework/src/Illuminate/Contracts/Broadcasting/Broadcaster.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/TP/TP5/Laravel/vendor/symfony/debug/Tests/Exception/FlattenExceptionTest.php" beforeDir="false" afterPath="$PROJECT_DIR$/TP/TP5/Laravel/vendor/symfony/debug/Tests/Exception/FlattenExceptionTest.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/TP/TP5/Laravel/vendor/symfony/http-foundation/Tests/ResponseHeaderBagTest.php" beforeDir="false" afterPath="$PROJECT_DIR$/TP/TP5/Laravel/vendor/symfony/http-foundation/Tests/ResponseHeaderBagTest.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/TP/TP5/Laravel/vendor/symfony/http-kernel/Exception/UnauthorizedHttpException.php" beforeDir="false" afterPath="$PROJECT_DIR$/TP/TP5/Laravel/vendor/symfony/http-kernel/Exception/UnauthorizedHttpException.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/TP/TP5/Laravel/vendor/symfony/http-kernel/Tests/Exception/UnauthorizedHttpExceptionTest.php" beforeDir="false" afterPath="$PROJECT_DIR$/TP/TP5/Laravel/vendor/symfony/http-kernel/Tests/Exception/UnauthorizedHttpExceptionTest.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/correction/TP8/app/Http/Controllers/UserController.php" beforeDir="false" afterPath="$PROJECT_DIR$/correction/TP8/app/Http/Controllers/UserController.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/correction/TP8/app/Http/Kernel.php" beforeDir="false" afterPath="$PROJECT_DIR$/correction/TP8/app/Http/Kernel.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/correction/TP8/app/User.php" beforeDir="false" afterPath="$PROJECT_DIR$/correction/TP8/app/User.php" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -166,8 +52,31 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/tpnoteRendu/Laravel/app/Http/Middleware/EnsureMyUserIsAuthenticated.php">
+          <provider selected="true" editor-type-id="text-editor" />
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/correction/TP8/app/Http/Kernel.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="422">
+              <caret line="59" column="8" lean-forward="true" selection-start-line="59" selection-start-column="8" selection-end-line="59" selection-end-column="81" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/tpnoteRendu/Laravel/app/Http/Kernel.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="615">
+              <caret line="59" column="35" selection-start-line="59" selection-start-column="35" selection-end-line="59" selection-end-column="35" />
+            </state>
+          </provider>
+        </entry>
+      </file>
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/TP-note-2018/ParcInfo/app/app/Http/Kernel.php">
+        <entry file="file://$PROJECT_DIR$/tpnoteRendu/Laravel/app/Http/Controllers/ReservationsControler.php">
           <provider selected="true" editor-type-id="text-editor" />
         </entry>
       </file>
@@ -222,6 +131,9 @@
         <option value="$PROJECT_DIR$/tpnoteRendu/Laravel/resources/views/Ajouter une réservation.html" />
         <option value="$PROJECT_DIR$/tpnoteRendu/Laravel/resources/views/Change password.html" />
         <option value="$PROJECT_DIR$/tpnoteRendu/Laravel/resources/views/Liste de mes postes.html" />
+        <option value="$PROJECT_DIR$/tpnoteRendu/Laravel/app/Http/Middleware/session.php" />
+        <option value="$PROJECT_DIR$/tpnoteRendu/Laravel/app/Http/Kernel.php" />
+        <option value="$PROJECT_DIR$/tpnoteRendu/Laravel/routes/web.php" />
       </list>
     </option>
   </component>
@@ -266,6 +178,46 @@
             <path>
               <item name="W31" type="b2602c69:ProjectViewProjectNode" />
               <item name="W31" type="462c0819:PsiDirectoryNode" />
+              <item name="correction" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="W31" type="b2602c69:ProjectViewProjectNode" />
+              <item name="W31" type="462c0819:PsiDirectoryNode" />
+              <item name="correction" type="462c0819:PsiDirectoryNode" />
+              <item name="TP8" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="W31" type="b2602c69:ProjectViewProjectNode" />
+              <item name="W31" type="462c0819:PsiDirectoryNode" />
+              <item name="correction" type="462c0819:PsiDirectoryNode" />
+              <item name="TP8" type="462c0819:PsiDirectoryNode" />
+              <item name="app" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="W31" type="b2602c69:ProjectViewProjectNode" />
+              <item name="W31" type="462c0819:PsiDirectoryNode" />
+              <item name="correction" type="462c0819:PsiDirectoryNode" />
+              <item name="TP8" type="462c0819:PsiDirectoryNode" />
+              <item name="app" type="462c0819:PsiDirectoryNode" />
+              <item name="Http" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="W31" type="b2602c69:ProjectViewProjectNode" />
+              <item name="W31" type="462c0819:PsiDirectoryNode" />
+              <item name="correction" type="462c0819:PsiDirectoryNode" />
+              <item name="TP8" type="462c0819:PsiDirectoryNode" />
+              <item name="resources" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="W31" type="b2602c69:ProjectViewProjectNode" />
+              <item name="W31" type="462c0819:PsiDirectoryNode" />
+              <item name="correction" type="462c0819:PsiDirectoryNode" />
+              <item name="TP8" type="462c0819:PsiDirectoryNode" />
+              <item name="routes" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="W31" type="b2602c69:ProjectViewProjectNode" />
+              <item name="W31" type="462c0819:PsiDirectoryNode" />
               <item name="TP-note-2018" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
@@ -284,7 +236,39 @@
               <item name="W31" type="462c0819:PsiDirectoryNode" />
               <item name="tpnoteRendu" type="462c0819:PsiDirectoryNode" />
               <item name="Laravel" type="462c0819:PsiDirectoryNode" />
+              <item name="app" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="W31" type="b2602c69:ProjectViewProjectNode" />
+              <item name="W31" type="462c0819:PsiDirectoryNode" />
+              <item name="tpnoteRendu" type="462c0819:PsiDirectoryNode" />
+              <item name="Laravel" type="462c0819:PsiDirectoryNode" />
+              <item name="app" type="462c0819:PsiDirectoryNode" />
+              <item name="Http" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="W31" type="b2602c69:ProjectViewProjectNode" />
+              <item name="W31" type="462c0819:PsiDirectoryNode" />
+              <item name="tpnoteRendu" type="462c0819:PsiDirectoryNode" />
+              <item name="Laravel" type="462c0819:PsiDirectoryNode" />
+              <item name="app" type="462c0819:PsiDirectoryNode" />
+              <item name="Http" type="462c0819:PsiDirectoryNode" />
+              <item name="Controllers" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="W31" type="b2602c69:ProjectViewProjectNode" />
+              <item name="W31" type="462c0819:PsiDirectoryNode" />
+              <item name="tpnoteRendu" type="462c0819:PsiDirectoryNode" />
+              <item name="Laravel" type="462c0819:PsiDirectoryNode" />
               <item name="database" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="W31" type="b2602c69:ProjectViewProjectNode" />
+              <item name="W31" type="462c0819:PsiDirectoryNode" />
+              <item name="tpnoteRendu" type="462c0819:PsiDirectoryNode" />
+              <item name="Laravel" type="462c0819:PsiDirectoryNode" />
+              <item name="database" type="462c0819:PsiDirectoryNode" />
+              <item name="migrations" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="W31" type="b2602c69:ProjectViewProjectNode" />
@@ -299,14 +283,6 @@
               <item name="tpnoteRendu" type="462c0819:PsiDirectoryNode" />
               <item name="Laravel" type="462c0819:PsiDirectoryNode" />
               <item name="resources" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="W31" type="b2602c69:ProjectViewProjectNode" />
-              <item name="W31" type="462c0819:PsiDirectoryNode" />
-              <item name="tpnoteRendu" type="462c0819:PsiDirectoryNode" />
-              <item name="Laravel" type="462c0819:PsiDirectoryNode" />
-              <item name="resources" type="462c0819:PsiDirectoryNode" />
-              <item name="views" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="W31" type="b2602c69:ProjectViewProjectNode" />
@@ -344,11 +320,11 @@
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/tpnoteRendu/Laravel/app/Http/Controllers" />
+      <recent name="$PROJECT_DIR$/tpnoteRendu/Laravel/app/Http" />
+      <recent name="$PROJECT_DIR$/tpnoteRendu/Laravel/app/Http/Middleware" />
       <recent name="$PROJECT_DIR$/TP-note-2018/ParcInfo/app" />
       <recent name="$PROJECT_DIR$/TP/TP5/Laravel/app/Http/Middleware" />
-      <recent name="$PROJECT_DIR$/TP/TP5/Laravel/app/Http/Controllers" />
-      <recent name="$PROJECT_DIR$/TP/TP5/Laravel" />
-      <recent name="$PROJECT_DIR$/TP/TP5/Laravel/app" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="$PROJECT_DIR$/rendu" />
@@ -475,15 +451,21 @@
       <option name="project" value="LOCAL" />
       <updated>1576483209456</updated>
     </task>
-    <option name="localTasksCounter" value="10" />
+    <task id="LOCAL-00010" summary="TP noté">
+      <created>1576487280294</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1576487280295</updated>
+    </task>
+    <option name="localTasksCounter" value="11" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="5201000" />
+    <option name="totallyTimeSpent" value="6437000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-3" y="31" width="1926" height="1003" extended-state="6" />
-    <editor active="true" />
     <layout>
       <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.25825346" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
@@ -616,89 +598,10 @@
     <MESSAGE value="Début du TP5" />
     <MESSAGE value="TP5, fin de l'exercice 3" />
     <MESSAGE value="modification du .env" />
-    <option name="LAST_COMMIT_MESSAGE" value="modification du .env" />
+    <MESSAGE value="TP noté" />
+    <option name="LAST_COMMIT_MESSAGE" value="TP noté" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$APPLICATION_CONFIG_DIR$/consoles/db/26ad0315-b7a9-4cd9-aa50-1a6709d30a54/console.sql">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$APPLICATION_CONFIG_DIR$/scratches/scratch.sql">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret selection-end-column="8" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/TP-note-2018/init_db.sql">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="105">
-          <caret line="7" column="36" selection-end-line="124" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="uml://DATABASE/26ad0315-b7a9-4cd9-aa50-1a6709d30a54.SCHEMA:w31NathTpNote">
-      <provider selected="true" editor-type-id="UmlEditorProvider">
-        <state>
-          <ID>DATABASE</ID>
-          <OriginalElement>26ad0315-b7a9-4cd9-aa50-1a6709d30a54.SCHEMA:w31NathTpNote</OriginalElement>
-          <nodes>
-            <node x="0.0" y="214.0">26ad0315-b7a9-4cd9-aa50-1a6709d30a54.TABLE:w31NathTpNote.Postes</node>
-            <node x="0.0" y="0.0">26ad0315-b7a9-4cd9-aa50-1a6709d30a54.TABLE:w31NathTpNote.Reservations</node>
-            <node x="0.0" y="359.0">26ad0315-b7a9-4cd9-aa50-1a6709d30a54.TABLE:w31NathTpNote.Users</node>
-          </nodes>
-          <notes />
-          <edges />
-          <settings layout="Hierarchic Group" zoom="1.0" x="-274.0" y="45.5" />
-          <SelectedNodes>
-            <node>26ad0315-b7a9-4cd9-aa50-1a6709d30a54.TABLE:w31NathTpNote.Postes</node>
-          </SelectedNodes>
-          <Categories>
-            <Category>Key columns</Category>
-            <Category>Columns</Category>
-          </Categories>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/TP-note-2018/ParcInfo/vendor/bin/psysh">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="210">
-          <caret line="14" lean-forward="true" selection-start-line="14" selection-end-line="14" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/TP-note-2018/ParcInfo/bootstrap/bootstrap/cache/.gitignore">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/TP-note-2018/ParcInfo/bootstrap/cache/.gitignore">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/TP/TP5/Laravel/bootstrap/app.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="180">
-          <caret line="21" column="1" lean-forward="true" selection-start-line="21" selection-start-column="1" selection-end-line="21" selection-end-column="1" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/TP-note-2018/ParcInfo/bootstrap/app.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="315">
-          <caret line="21" column="10" selection-start-line="21" selection-start-column="7" selection-end-line="21" selection-end-column="10" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/TP-note-2018/demo/Signup.html">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/TP-note-2018/ParcInfo/resources/views/Ajouter un poste.html">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/TP-note-2018/ParcInfo/.env">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="120">
-          <caret line="8" column="25" selection-start-line="8" selection-start-column="25" selection-end-line="8" selection-end-column="25" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/TP/TP5/Laravel/.env">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="180">
@@ -762,13 +665,6 @@
         <state split_layout="SECOND">
           <first_editor />
           <second_editor />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/correction/TP8/app/Http/Middleware/Authenticate.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="240">
-          <caret line="16" column="8" selection-start-line="16" selection-start-column="8" selection-end-line="18" selection-end-column="9" />
         </state>
       </provider>
     </entry>
@@ -916,12 +812,81 @@
     <entry file="file://$PROJECT_DIR$/tpnoteRendu/Laravel/resources/views/My account.html">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/tpnoteRendu/Laravel/routes/web.php">
+    <entry file="file://$PROJECT_DIR$/tpnoteRendu/Laravel/resources/views/Signup.html">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/tpnoteRendu/Laravel/resources/views/signin.pĥp">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/correction/TP8/app/Http/Middleware/Authenticate.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-178" />
+        <state relative-caret-position="210">
+          <caret line="14" column="4" selection-start-line="14" selection-start-column="4" selection-end-line="19" selection-end-column="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/tpnoteRendu/Laravel/app/Http/Controllers/UserController.php">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/tpnoteRendu/Laravel/app/Http/Controllers/Controller.php">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/correction/TP8/routes/web.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="240">
+          <caret line="25" column="40" lean-forward="true" selection-start-line="25" selection-start-column="40" selection-end-line="25" selection-end-column="40" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/tpnoteRendu/Laravel/app/Http/Middleware/session.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="165">
+          <caret line="12" column="5" selection-start-line="12" selection-start-column="5" selection-end-line="12" selection-end-column="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/tpnoteRendu/Laravel/app/User.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="420">
+          <caret line="32" lean-forward="true" selection-start-line="32" selection-end-line="32" />
+        </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/TP-note-2018/ParcInfo/app/app/Http/Kernel.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="495">
+          <caret line="33" column="73" lean-forward="true" selection-start-line="33" selection-start-column="73" selection-end-line="33" selection-end-column="73" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/tpnoteRendu/Laravel/app/Http/Middleware/EnsureMyUserIsAuthenticated.php">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/tpnoteRendu/Laravel/app/Console/Kernel.php">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/correction/TP8/app/Http/Kernel.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="422">
+          <caret line="59" column="8" lean-forward="true" selection-start-line="59" selection-start-column="8" selection-end-line="59" selection-end-column="81" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/tpnoteRendu/Laravel/routes/web.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-105">
+          <caret line="23" column="34" selection-start-line="23" selection-start-column="34" selection-end-line="23" selection-end-column="34" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/tpnoteRendu/Laravel/app/Http/Kernel.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="615">
+          <caret line="59" column="35" selection-start-line="59" selection-start-column="35" selection-end-line="59" selection-end-column="35" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/tpnoteRendu/Laravel/app/Http/Controllers/ReservationsControler.php">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
   </component>
