@@ -2,9 +2,92 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="20d701e9-1c0d-4239-8034-6b4fca70220e" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/tpnoteR/resources/views/sockList.blade.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/tpnoteR/app/Http/Controllers/SocksController.php" beforeDir="false" afterPath="$PROJECT_DIR$/tpnoteR/app/Http/Controllers/SocksController.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/tpnoteR/routes/web.php" beforeDir="false" afterPath="$PROJECT_DIR$/tpnoteR/routes/web.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/TPnote_rattrapage/.editorconfig" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/TPnote_rattrapage/.env.example" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/TPnote_rattrapage/.gitattributes" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/TPnote_rattrapage/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/TPnote_rattrapage/.styleci.yml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/TPnote_rattrapage/README.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/TPnote_rattrapage/app/Console/Kernel.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/TPnote_rattrapage/app/Exceptions/Handler.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/TPnote_rattrapage/app/Http/Controllers/Auth/ConfirmPasswordController.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/TPnote_rattrapage/app/Http/Controllers/Auth/ForgotPasswordController.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/TPnote_rattrapage/app/Http/Controllers/Auth/LoginController.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/TPnote_rattrapage/app/Http/Controllers/Auth/RegisterController.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/TPnote_rattrapage/app/Http/Controllers/Auth/ResetPasswordController.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/TPnote_rattrapage/app/Http/Controllers/Auth/VerificationController.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/TPnote_rattrapage/app/Http/Controllers/Controller.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/TPnote_rattrapage/app/Http/Kernel.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/TPnote_rattrapage/app/Http/Middleware/Authenticate.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/TPnote_rattrapage/app/Http/Middleware/CheckForMaintenanceMode.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/TPnote_rattrapage/app/Http/Middleware/EncryptCookies.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/TPnote_rattrapage/app/Http/Middleware/RedirectIfAuthenticated.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/TPnote_rattrapage/app/Http/Middleware/TrimStrings.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/TPnote_rattrapage/app/Http/Middleware/TrustProxies.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/TPnote_rattrapage/app/Http/Middleware/VerifyCsrfToken.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/TPnote_rattrapage/app/Providers/AppServiceProvider.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/TPnote_rattrapage/app/Providers/AuthServiceProvider.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/TPnote_rattrapage/app/Providers/BroadcastServiceProvider.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/TPnote_rattrapage/app/Providers/EventServiceProvider.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/TPnote_rattrapage/app/Providers/RouteServiceProvider.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/TPnote_rattrapage/app/User.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/TPnote_rattrapage/artisan" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/TPnote_rattrapage/bootstrap/app.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/TPnote_rattrapage/bootstrap/cache/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/TPnote_rattrapage/composer.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/TPnote_rattrapage/composer.lock" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/TPnote_rattrapage/config/app.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/TPnote_rattrapage/config/auth.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/TPnote_rattrapage/config/broadcasting.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/TPnote_rattrapage/config/cache.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/TPnote_rattrapage/config/database.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/TPnote_rattrapage/config/filesystems.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/TPnote_rattrapage/config/hashing.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/TPnote_rattrapage/config/logging.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/TPnote_rattrapage/config/mail.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/TPnote_rattrapage/config/queue.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/TPnote_rattrapage/config/services.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/TPnote_rattrapage/config/session.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/TPnote_rattrapage/config/view.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/TPnote_rattrapage/database/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/TPnote_rattrapage/database/factories/UserFactory.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/TPnote_rattrapage/database/migrations/2014_10_12_000000_create_users_table.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/TPnote_rattrapage/database/migrations/2014_10_12_100000_create_password_resets_table.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/TPnote_rattrapage/database/migrations/2019_08_19_000000_create_failed_jobs_table.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/TPnote_rattrapage/database/seeds/DatabaseSeeder.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/TPnote_rattrapage/package.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/TPnote_rattrapage/phpunit.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/TPnote_rattrapage/public/.htaccess" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/TPnote_rattrapage/public/favicon.ico" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/TPnote_rattrapage/public/index.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/TPnote_rattrapage/public/robots.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/TPnote_rattrapage/public/web.config" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/TPnote_rattrapage/resources/js/app.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/TPnote_rattrapage/resources/js/bootstrap.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/TPnote_rattrapage/resources/lang/en/auth.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/TPnote_rattrapage/resources/lang/en/pagination.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/TPnote_rattrapage/resources/lang/en/passwords.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/TPnote_rattrapage/resources/lang/en/validation.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/TPnote_rattrapage/resources/sass/app.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/TPnote_rattrapage/resources/views/welcome.blade.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/TPnote_rattrapage/routes/api.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/TPnote_rattrapage/routes/channels.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/TPnote_rattrapage/routes/console.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/TPnote_rattrapage/routes/web.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/TPnote_rattrapage/server.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/TPnote_rattrapage/storage/app/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/TPnote_rattrapage/storage/app/public/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/TPnote_rattrapage/storage/framework/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/TPnote_rattrapage/storage/framework/cache/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/TPnote_rattrapage/storage/framework/cache/data/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/TPnote_rattrapage/storage/framework/sessions/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/TPnote_rattrapage/storage/framework/testing/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/TPnote_rattrapage/storage/framework/views/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/TPnote_rattrapage/storage/logs/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/TPnote_rattrapage/tests/CreatesApplication.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/TPnote_rattrapage/tests/Feature/ExampleTest.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/TPnote_rattrapage/tests/TestCase.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/TPnote_rattrapage/tests/Unit/ExampleTest.php" beforeDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -212,7 +295,7 @@
       <workItem from="1576672424936" duration="67000" />
       <workItem from="1576757713876" duration="290000" />
       <workItem from="1578658773859" duration="3572000" />
-      <workItem from="1578668029027" duration="5824000" />
+      <workItem from="1578668029027" duration="6203000" />
     </task>
     <task id="LOCAL-00001" summary="Mise à jour de l'arborescence des fichiers">
       <created>1568367798811</created>
@@ -298,7 +381,14 @@
       <option name="project" value="LOCAL" />
       <updated>1578673952583</updated>
     </task>
-    <option name="localTasksCounter" value="13" />
+    <task id="LOCAL-00013" summary="Ajout du tout début de la question 3">
+      <created>1578674135500</created>
+      <option name="number" value="00013" />
+      <option name="presentableId" value="LOCAL-00013" />
+      <option name="project" value="LOCAL" />
+      <updated>1578674135500</updated>
+    </task>
+    <option name="localTasksCounter" value="14" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -378,6 +468,7 @@
     <MESSAGE value="Demarrage JAC" />
     <MESSAGE value="Partie 1 tp rattrapage" />
     <MESSAGE value="Question5 finie" />
-    <option name="LAST_COMMIT_MESSAGE" value="Question5 finie" />
+    <MESSAGE value="Ajout du tout début de la question 3" />
+    <option name="LAST_COMMIT_MESSAGE" value="Ajout du tout début de la question 3" />
   </component>
 </project>
