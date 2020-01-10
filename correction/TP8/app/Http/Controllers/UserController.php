@@ -66,7 +66,7 @@ class UserController extends Controller
     }
 
     /**
-     * Authenticate the user.
+     * session the user.
      *
      * @param  \Illuminate\Http\Request  $request
      * @return \Illuminate\Http\Response
