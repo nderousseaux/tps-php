@@ -2,104 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="20d701e9-1c0d-4239-8034-6b4fca70220e" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/TP/TP8/app/test.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/TPnote_rattrapage/.editorconfig" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/TPnote_rattrapage/.env.example" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/TPnote_rattrapage/.gitattributes" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/TPnote_rattrapage/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/TPnote_rattrapage/.styleci.yml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/TPnote_rattrapage/README.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/TPnote_rattrapage/app/Console/Kernel.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/TPnote_rattrapage/app/Exceptions/Handler.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/TPnote_rattrapage/app/Http/Controllers/Auth/ConfirmPasswordController.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/TPnote_rattrapage/app/Http/Controllers/Auth/ForgotPasswordController.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/TPnote_rattrapage/app/Http/Controllers/Auth/LoginController.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/TPnote_rattrapage/app/Http/Controllers/Auth/RegisterController.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/TPnote_rattrapage/app/Http/Controllers/Auth/ResetPasswordController.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/TPnote_rattrapage/app/Http/Controllers/Auth/VerificationController.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/TPnote_rattrapage/app/Http/Controllers/Controller.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/TPnote_rattrapage/app/Http/Kernel.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/TPnote_rattrapage/app/Http/Middleware/Authenticate.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/TPnote_rattrapage/app/Http/Middleware/CheckForMaintenanceMode.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/TPnote_rattrapage/app/Http/Middleware/EncryptCookies.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/TPnote_rattrapage/app/Http/Middleware/RedirectIfAuthenticated.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/TPnote_rattrapage/app/Http/Middleware/TrimStrings.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/TPnote_rattrapage/app/Http/Middleware/TrustProxies.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/TPnote_rattrapage/app/Http/Middleware/VerifyCsrfToken.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/TPnote_rattrapage/app/Providers/AppServiceProvider.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/TPnote_rattrapage/app/Providers/AuthServiceProvider.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/TPnote_rattrapage/app/Providers/BroadcastServiceProvider.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/TPnote_rattrapage/app/Providers/EventServiceProvider.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/TPnote_rattrapage/app/Providers/RouteServiceProvider.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/TPnote_rattrapage/app/User.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/TPnote_rattrapage/artisan" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/TPnote_rattrapage/bootstrap/app.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/TPnote_rattrapage/bootstrap/cache/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/TPnote_rattrapage/composer.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/TPnote_rattrapage/composer.lock" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/TPnote_rattrapage/config/app.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/TPnote_rattrapage/config/auth.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/TPnote_rattrapage/config/broadcasting.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/TPnote_rattrapage/config/cache.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/TPnote_rattrapage/config/database.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/TPnote_rattrapage/config/filesystems.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/TPnote_rattrapage/config/hashing.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/TPnote_rattrapage/config/logging.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/TPnote_rattrapage/config/mail.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/TPnote_rattrapage/config/queue.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/TPnote_rattrapage/config/services.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/TPnote_rattrapage/config/session.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/TPnote_rattrapage/config/view.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/TPnote_rattrapage/database/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/TPnote_rattrapage/database/factories/UserFactory.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/TPnote_rattrapage/database/seeds/DatabaseSeeder.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/TPnote_rattrapage/package.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/TPnote_rattrapage/phpunit.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/TPnote_rattrapage/public/.htaccess" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/TPnote_rattrapage/public/favicon.ico" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/TPnote_rattrapage/public/index.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/TPnote_rattrapage/public/robots.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/TPnote_rattrapage/public/web.config" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/TPnote_rattrapage/resources/js/app.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/TPnote_rattrapage/resources/js/bootstrap.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/TPnote_rattrapage/resources/lang/en/auth.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/TPnote_rattrapage/resources/lang/en/pagination.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/TPnote_rattrapage/resources/lang/en/passwords.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/TPnote_rattrapage/resources/lang/en/validation.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/TPnote_rattrapage/resources/sass/app.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/TPnote_rattrapage/resources/views/welcome.blade.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/TPnote_rattrapage/routes/api.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/TPnote_rattrapage/routes/channels.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/TPnote_rattrapage/routes/console.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/TPnote_rattrapage/routes/web.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/TPnote_rattrapage/server.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/TPnote_rattrapage/storage/app/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/TPnote_rattrapage/storage/app/public/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/TPnote_rattrapage/storage/framework/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/TPnote_rattrapage/storage/framework/cache/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/TPnote_rattrapage/storage/framework/cache/data/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/TPnote_rattrapage/storage/framework/sessions/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/TPnote_rattrapage/storage/framework/testing/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/TPnote_rattrapage/storage/framework/views/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/TPnote_rattrapage/storage/logs/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/TPnote_rattrapage/tests/CreatesApplication.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/TPnote_rattrapage/tests/Feature/ExampleTest.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/TPnote_rattrapage/tests/TestCase.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/TPnote_rattrapage/tests/Unit/ExampleTest.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/TPnote_rattrapage/webpack.mix.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/tpnoteR/app/Http/Controllers/SocksController.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/tpnoteR/app/Socks.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/tpnoteR/database/migrations/2020_01_10_153857_create_socks_table.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/tpnoteR/resources/views/Ajouter.blade.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/dataSources/7e43953e-315b-4de9-a42c-664aa66ced18.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dataSources/7e43953e-315b-4de9-a42c-664aa66ced18.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/tpnoteR/app/Http/Controllers/UserController.php" beforeDir="false" afterPath="$PROJECT_DIR$/tpnoteR/app/Http/Controllers/UserController.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/tpnoteR/app/UserEloquent.php" beforeDir="false" afterPath="$PROJECT_DIR$/tpnoteR/app/UserEloquent.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/tpnoteR/database/migrations/2014_10_12_000000_create_users_table.php" beforeDir="false" afterPath="$PROJECT_DIR$/TPnote_rattrapage/database/migrations/2014_10_12_000000_create_users_table.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/tpnoteR/database/migrations/2014_10_12_100000_create_password_resets_table.php" beforeDir="false" afterPath="$PROJECT_DIR$/TPnote_rattrapage/database/migrations/2014_10_12_100000_create_password_resets_table.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/tpnoteR/database/migrations/2019_08_19_000000_create_failed_jobs_table.php" beforeDir="false" afterPath="$PROJECT_DIR$/TPnote_rattrapage/database/migrations/2019_08_19_000000_create_failed_jobs_table.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/tpnoteR/database/migrations/2019_11_11_161958_create_user_eloquents_table.php" beforeDir="false" afterPath="$PROJECT_DIR$/tpnoteR/database/migrations/2019_11_11_161958_create_user_eloquents_table.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/tpnoteR/resources/views/welcome.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/tpnoteR/resources/views/welcome.blade.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tpnoteR/resources/views/sockList.blade.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/tpnoteR/app/Http/Controllers/SocksController.php" beforeDir="false" afterPath="$PROJECT_DIR$/tpnoteR/app/Http/Controllers/SocksController.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/tpnoteR/routes/web.php" beforeDir="false" afterPath="$PROJECT_DIR$/tpnoteR/routes/web.php" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -215,7 +119,7 @@
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="database.console.LAST_STATE" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/tpnoteR" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/tpnoteR/resources/views" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
     <property name="nodejs_package_manager_path" value="npm" />
@@ -308,7 +212,7 @@
       <workItem from="1576672424936" duration="67000" />
       <workItem from="1576757713876" duration="290000" />
       <workItem from="1578658773859" duration="3572000" />
-      <workItem from="1578668029027" duration="5507000" />
+      <workItem from="1578668029027" duration="5824000" />
     </task>
     <task id="LOCAL-00001" summary="Mise à jour de l'arborescence des fichiers">
       <created>1568367798811</created>
@@ -387,7 +291,14 @@
       <option name="project" value="LOCAL" />
       <updated>1578670080349</updated>
     </task>
-    <option name="localTasksCounter" value="12" />
+    <task id="LOCAL-00012" summary="Question5 finie">
+      <created>1578673952583</created>
+      <option name="number" value="00012" />
+      <option name="presentableId" value="LOCAL-00012" />
+      <option name="project" value="LOCAL" />
+      <updated>1578673952583</updated>
+    </task>
+    <option name="localTasksCounter" value="13" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -466,6 +377,7 @@
     <MESSAGE value="TP5, fin de l'exercice 3" />
     <MESSAGE value="Demarrage JAC" />
     <MESSAGE value="Partie 1 tp rattrapage" />
-    <option name="LAST_COMMIT_MESSAGE" value="Partie 1 tp rattrapage" />
+    <MESSAGE value="Question5 finie" />
+    <option name="LAST_COMMIT_MESSAGE" value="Question5 finie" />
   </component>
 </project>

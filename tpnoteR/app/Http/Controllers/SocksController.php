@@ -12,6 +12,11 @@ class SocksController extends Controller
         return view('Ajouter');
     }
 
+    public function sockList( Request $request )
+    {
+        return view('sockList');
+    }
+
     public function ajouterChaus( Request $request )
     {
         // On vérifie qu'on a bien reçu les données en POST
