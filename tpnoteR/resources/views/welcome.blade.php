@@ -11,7 +11,8 @@
 	<ul>
 		<li><a href="formpassword">Change password.</a></li>
 		<li><a href="deleteuser">Delete my account.</a></li>
-        <li><a href="infouser">Delete my account.</a></li>
+        <li><a href="infouser">Infos users.</a></li>
+        <li><a href="ajout">Ajouter une chausette.</a></li>
 	</ul>
     <p><a href="signout">Sign out.</a></p>
 @endsection

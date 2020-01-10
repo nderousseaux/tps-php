@@ -67,7 +67,7 @@ class UserController extends Controller
 
     public function infouser( Request $request )
     {
-        return view('welcome')
+        return view('userinfo')
             ->with('user',$request->session()->get('user'))
             ->with('nom',$request->session()->get('nom'))
             ->with('prenom',$request->session()->get('prenom'))
@@ -132,7 +132,7 @@ class UserController extends Controller
             $user->save();
         }
         catch (\Illuminate\Database\QueryException $e) {
-            return redirect('signup')->with('message','This login is still used. Please choose another one.');
+            return redirect('signup')->with('message',$e->getMessage());
         }
 
         // Si tout est ok, on indique que le compte est crée et on se rend sur signin

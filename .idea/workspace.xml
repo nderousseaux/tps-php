@@ -52,9 +52,6 @@
       <change afterPath="$PROJECT_DIR$/TPnote_rattrapage/config/view.php" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/TPnote_rattrapage/database/.gitignore" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/TPnote_rattrapage/database/factories/UserFactory.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/TPnote_rattrapage/database/migrations/2014_10_12_000000_create_users_table.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/TPnote_rattrapage/database/migrations/2014_10_12_100000_create_password_resets_table.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/TPnote_rattrapage/database/migrations/2019_08_19_000000_create_failed_jobs_table.php" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/TPnote_rattrapage/database/seeds/DatabaseSeeder.php" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/TPnote_rattrapage/package.json" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/TPnote_rattrapage/phpunit.xml" afterDir="false" />
@@ -90,108 +87,20 @@
       <change afterPath="$PROJECT_DIR$/TPnote_rattrapage/tests/TestCase.php" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/TPnote_rattrapage/tests/Unit/ExampleTest.php" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/TPnote_rattrapage/webpack.mix.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/tpnoteR/.editorconfig" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/tpnoteR/.env.example" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/tpnoteR/.gitattributes" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/tpnoteR/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/tpnoteR/.styleci.yml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/tpnoteR/app/Console/Kernel.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/tpnoteR/app/Exceptions/Handler.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/tpnoteR/app/Http/Controllers/Auth/ConfirmPasswordController.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/tpnoteR/app/Http/Controllers/Auth/ForgotPasswordController.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/tpnoteR/app/Http/Controllers/Auth/LoginController.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/tpnoteR/app/Http/Controllers/Auth/RegisterController.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/tpnoteR/app/Http/Controllers/Auth/ResetPasswordController.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/tpnoteR/app/Http/Controllers/Auth/VerificationController.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/tpnoteR/app/Http/Controllers/Controller.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/tpnoteR/app/Http/Controllers/UserController.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/tpnoteR/app/Http/Kernel.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/tpnoteR/app/Http/Middleware/Authenticate.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/tpnoteR/app/Http/Middleware/CheckForMaintenanceMode.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/tpnoteR/app/Http/Middleware/EncryptCookies.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/tpnoteR/app/Http/Middleware/EnsureMyUserIsAuthenticated.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/tpnoteR/app/Http/Middleware/RedirectIfAuthenticated.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/tpnoteR/app/Http/Middleware/TrimStrings.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/tpnoteR/app/Http/Middleware/TrustProxies.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/tpnoteR/app/Http/Middleware/VerifyCsrfToken.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/tpnoteR/app/Providers/AppServiceProvider.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/tpnoteR/app/Providers/AuthServiceProvider.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/tpnoteR/app/Providers/BroadcastServiceProvider.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/tpnoteR/app/Providers/EventServiceProvider.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/tpnoteR/app/Providers/RouteServiceProvider.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/tpnoteR/app/User.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/tpnoteR/app/UserEloquent.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/tpnoteR/artisan" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/tpnoteR/bootstrap/app.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/tpnoteR/bootstrap/cache/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/tpnoteR/composer.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/tpnoteR/composer.lock" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/tpnoteR/config/app.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/tpnoteR/config/auth.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/tpnoteR/config/broadcasting.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/tpnoteR/config/cache.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/tpnoteR/config/database.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/tpnoteR/config/filesystems.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/tpnoteR/config/hashing.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/tpnoteR/config/logging.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/tpnoteR/config/mail.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/tpnoteR/config/queue.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/tpnoteR/config/services.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/tpnoteR/config/session.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/tpnoteR/config/view.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/tpnoteR/database/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/tpnoteR/database/factories/UserFactory.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/tpnoteR/database/migrations/2014_10_12_000000_create_users_table.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/tpnoteR/database/migrations/2014_10_12_100000_create_password_resets_table.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/tpnoteR/database/migrations/2019_08_19_000000_create_failed_jobs_table.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/tpnoteR/database/migrations/2019_11_11_161958_create_user_eloquents_table.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/tpnoteR/database/seeds/DatabaseSeeder.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/tpnoteR/package.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/tpnoteR/phpunit.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/tpnoteR/public/.htaccess" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/tpnoteR/public/favicon.ico" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/tpnoteR/public/index.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/tpnoteR/public/robots.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/tpnoteR/public/web.config" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/tpnoteR/readme.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/tpnoteR/resources/js/app.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/tpnoteR/resources/js/bootstrap.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/tpnoteR/resources/lang/en/auth.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/tpnoteR/resources/lang/en/pagination.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/tpnoteR/resources/lang/en/passwords.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/tpnoteR/resources/lang/en/validation.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/tpnoteR/resources/sass/app.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/tpnoteR/resources/views/formpassword.blade.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/tpnoteR/resources/views/layouts/app.blade.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/tpnoteR/resources/views/shared/message.blade.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/tpnoteR/resources/views/signin.blade.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/tpnoteR/resources/views/signup.blade.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/tpnoteR/resources/views/userinfo.blade.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/tpnoteR/resources/views/welcome.blade.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/tpnoteR/routes/api.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/tpnoteR/routes/channels.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/tpnoteR/routes/console.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/tpnoteR/routes/web.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/tpnoteR/server.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/tpnoteR/storage/app/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/tpnoteR/storage/app/public/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/tpnoteR/storage/framework/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/tpnoteR/storage/framework/cache/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/tpnoteR/storage/framework/cache/data/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/tpnoteR/storage/framework/sessions/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/tpnoteR/storage/framework/testing/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/tpnoteR/storage/framework/views/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/tpnoteR/storage/logs/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/tpnoteR/tests/CreatesApplication.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/tpnoteR/tests/Feature/ExampleTest.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/tpnoteR/tests/TestCase.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/tpnoteR/tests/Unit/ExampleTest.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/tpnoteR/webpack.mix.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/dataSources.local.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dataSources.local.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/dataSources.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dataSources.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tpnoteR/app/Http/Controllers/SocksController.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tpnoteR/app/Socks.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tpnoteR/database/migrations/2020_01_10_153857_create_socks_table.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tpnoteR/resources/views/Ajouter.blade.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/dataSources/7e43953e-315b-4de9-a42c-664aa66ced18.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dataSources/7e43953e-315b-4de9-a42c-664aa66ced18.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/php.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/php.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/tpnoteR/app/Http/Controllers/UserController.php" beforeDir="false" afterPath="$PROJECT_DIR$/tpnoteR/app/Http/Controllers/UserController.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/tpnoteR/app/UserEloquent.php" beforeDir="false" afterPath="$PROJECT_DIR$/tpnoteR/app/UserEloquent.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/tpnoteR/database/migrations/2014_10_12_000000_create_users_table.php" beforeDir="false" afterPath="$PROJECT_DIR$/TPnote_rattrapage/database/migrations/2014_10_12_000000_create_users_table.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/tpnoteR/database/migrations/2014_10_12_100000_create_password_resets_table.php" beforeDir="false" afterPath="$PROJECT_DIR$/TPnote_rattrapage/database/migrations/2014_10_12_100000_create_password_resets_table.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/tpnoteR/database/migrations/2019_08_19_000000_create_failed_jobs_table.php" beforeDir="false" afterPath="$PROJECT_DIR$/TPnote_rattrapage/database/migrations/2019_08_19_000000_create_failed_jobs_table.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/tpnoteR/database/migrations/2019_11_11_161958_create_user_eloquents_table.php" beforeDir="false" afterPath="$PROJECT_DIR$/tpnoteR/database/migrations/2019_11_11_161958_create_user_eloquents_table.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/tpnoteR/resources/views/welcome.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/tpnoteR/resources/views/welcome.blade.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/tpnoteR/routes/web.php" beforeDir="false" afterPath="$PROJECT_DIR$/tpnoteR/routes/web.php" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -225,6 +134,26 @@
         <item name="Database" type="3277223f:DatabaseStructure$DbRootGroup" />
         <item name="DataBase TPNoté" type="feb32156:DbDataSourceImpl" />
         <item name="schemas" type="d4e8921:DatabaseStructure$FamilyGroup" />
+      </path>
+      <path>
+        <item name="Database" type="3277223f:DatabaseStructure$DbRootGroup" />
+        <item name="DataBase TPNoté" type="feb32156:DbDataSourceImpl" />
+        <item name="schemas" type="d4e8921:DatabaseStructure$FamilyGroup" />
+        <item name="w31TPNote: schema" type="76f4a085:MysqlImplModel$Schema" />
+      </path>
+      <path>
+        <item name="Database" type="3277223f:DatabaseStructure$DbRootGroup" />
+        <item name="DataBase TPNoté" type="feb32156:DbDataSourceImpl" />
+        <item name="schemas" type="d4e8921:DatabaseStructure$FamilyGroup" />
+        <item name="w31TPNote: schema" type="76f4a085:MysqlImplModel$Schema" />
+        <item name="socks: table" type="285a2a93:MysqlImplModel$Table" />
+      </path>
+      <path>
+        <item name="Database" type="3277223f:DatabaseStructure$DbRootGroup" />
+        <item name="DataBase TPNoté" type="feb32156:DbDataSourceImpl" />
+        <item name="schemas" type="d4e8921:DatabaseStructure$FamilyGroup" />
+        <item name="w31TPNote: schema" type="76f4a085:MysqlImplModel$Schema" />
+        <item name="UserEloquent: table" type="285a2a93:MysqlImplModel$Table" />
       </path>
     </expand>
     <select />
@@ -286,9 +215,10 @@
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="database.console.LAST_STATE" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/tpnoteR/resources/views" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/tpnoteR" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
+    <property name="nodejs_package_manager_path" value="npm" />
     <property name="settings.editor.selected.configurable" value="project.propVCSSupport.Mappings" />
   </component>
   <component name="RecentsManager">
@@ -378,7 +308,7 @@
       <workItem from="1576672424936" duration="67000" />
       <workItem from="1576757713876" duration="290000" />
       <workItem from="1578658773859" duration="3572000" />
-      <workItem from="1578668029027" duration="1921000" />
+      <workItem from="1578668029027" duration="5507000" />
     </task>
     <task id="LOCAL-00001" summary="Mise à jour de l'arborescence des fichiers">
       <created>1568367798811</created>
@@ -450,7 +380,14 @@
       <option name="project" value="LOCAL" />
       <updated>1576485829100</updated>
     </task>
-    <option name="localTasksCounter" value="11" />
+    <task id="LOCAL-00011" summary="Partie 1 tp rattrapage">
+      <created>1578670080349</created>
+      <option name="number" value="00011" />
+      <option name="presentableId" value="LOCAL-00011" />
+      <option name="project" value="LOCAL" />
+      <updated>1578670080349</updated>
+    </task>
+    <option name="localTasksCounter" value="12" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">

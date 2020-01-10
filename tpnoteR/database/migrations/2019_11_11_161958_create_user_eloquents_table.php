@@ -14,7 +14,7 @@ class CreateUserEloquentsTable extends Migration
     public function up()
     {
         Schema::create('UserEloquent', function (Blueprint $table) {
-            $table->string('user',255);
+            $table->string('user',100);
             $table->string('password',255);
             $table->string('nom',255);
             $table->string('prenom',255);

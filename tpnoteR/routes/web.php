@@ -26,6 +26,8 @@ Route::post('adduser', 'UserController@addUser');
 Route::prefix('admin')->middleware( 'myuser.auth')->group( function() {
 
     Route::get('welcome', 'UserController@welcome');
+    Route::get('ajout', 'SocksController@ajout');
+    Route::post('ajout', 'SocksController@ajouterChaus');
     Route::get('formpassword', 'UserController@formpassword');
     Route::get('infouser', 'UserController@infouser');
     Route::post('changepassword', 'UserController@changePassword');
